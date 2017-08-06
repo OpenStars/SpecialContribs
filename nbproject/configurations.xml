@@ -1,0 +1,1327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="include" displayName="include" projectFiles="true">
+      <logicalFolder name="f1" displayName="kyotocabinet" projectFiles="true">
+        <itemPath>include/kyotocabinet/cmdcommon.h</itemPath>
+        <itemPath>include/kyotocabinet/kccachedb.h</itemPath>
+        <itemPath>include/kyotocabinet/kccommon.h</itemPath>
+        <itemPath>include/kyotocabinet/kccompare.h</itemPath>
+        <itemPath>include/kyotocabinet/kccompress.h</itemPath>
+        <itemPath>include/kyotocabinet/kcdb.h</itemPath>
+        <itemPath>include/kyotocabinet/kcdbext.h</itemPath>
+        <itemPath>include/kyotocabinet/kcdirdb.h</itemPath>
+        <itemPath>include/kyotocabinet/kcfile.h</itemPath>
+        <itemPath>include/kyotocabinet/kchashdb.h</itemPath>
+        <itemPath>include/kyotocabinet/kclangc.h</itemPath>
+        <itemPath>include/kyotocabinet/kcmap.h</itemPath>
+        <itemPath>include/kyotocabinet/kcplantdb.h</itemPath>
+        <itemPath>include/kyotocabinet/kcpolydb.h</itemPath>
+        <itemPath>include/kyotocabinet/kcprotodb.h</itemPath>
+        <itemPath>include/kyotocabinet/kcregex.h</itemPath>
+        <itemPath>include/kyotocabinet/kcstashdb.h</itemPath>
+        <itemPath>include/kyotocabinet/kctextdb.h</itemPath>
+        <itemPath>include/kyotocabinet/kcthread.h</itemPath>
+        <itemPath>include/kyotocabinet/kcutil.h</itemPath>
+        <itemPath>include/kyotocabinet/myconf.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="leveldb" displayName="leveldb" projectFiles="true">
+        <itemPath>include/leveldb/c.h</itemPath>
+        <itemPath>include/leveldb/cache.h</itemPath>
+        <itemPath>include/leveldb/comparator.h</itemPath>
+        <itemPath>include/leveldb/db.h</itemPath>
+        <itemPath>include/leveldb/dumpfile.h</itemPath>
+        <itemPath>include/leveldb/env.h</itemPath>
+        <itemPath>include/leveldb/filter_policy.h</itemPath>
+        <itemPath>include/leveldb/iterator.h</itemPath>
+        <itemPath>include/leveldb/options.h</itemPath>
+        <itemPath>include/leveldb/slice.h</itemPath>
+        <itemPath>include/leveldb/status.h</itemPath>
+        <itemPath>include/leveldb/table.h</itemPath>
+        <itemPath>include/leveldb/table_builder.h</itemPath>
+        <itemPath>include/leveldb/write_batch.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="snappy" displayName="snappy" projectFiles="true">
+        <itemPath>include/snappy/snappy-stubs-public.h</itemPath>
+        <itemPath>include/snappy/snappy.h</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="src" displayName="src" projectFiles="true">
+      <logicalFolder name="hashkit" displayName="hashkit" projectFiles="true">
+        <itemPath>src/hashkit/algorithm.c</itemPath>
+        <itemPath>src/hashkit/algorithm.h</itemPath>
+        <itemPath>src/hashkit/behavior.c</itemPath>
+        <itemPath>src/hashkit/behavior.h</itemPath>
+        <itemPath>src/hashkit/common.h</itemPath>
+        <itemPath>src/hashkit/config.h</itemPath>
+        <itemPath>src/hashkit/configure.h</itemPath>
+        <itemPath>src/hashkit/crc32.c</itemPath>
+        <itemPath>src/hashkit/digest.c</itemPath>
+        <itemPath>src/hashkit/digest.h</itemPath>
+        <itemPath>src/hashkit/fnv.c</itemPath>
+        <itemPath>src/hashkit/function.c</itemPath>
+        <itemPath>src/hashkit/function.h</itemPath>
+        <itemPath>src/hashkit/hashkit.c</itemPath>
+        <itemPath>src/hashkit/hashkit.h</itemPath>
+        <itemPath>src/hashkit/hsieh.c</itemPath>
+        <itemPath>src/hashkit/jenkins.c</itemPath>
+        <itemPath>src/hashkit/ketama.c</itemPath>
+        <itemPath>src/hashkit/md5.c</itemPath>
+        <itemPath>src/hashkit/murmur.c</itemPath>
+        <itemPath>src/hashkit/one_at_a_time.c</itemPath>
+        <itemPath>src/hashkit/strerror.c</itemPath>
+        <itemPath>src/hashkit/strerror.h</itemPath>
+        <itemPath>src/hashkit/types.h</itemPath>
+        <itemPath>src/hashkit/visibility.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="KyotoCabinet" projectFiles="true">
+        <itemPath>src/kyotocabinet/kccachedb.cc</itemPath>
+        <itemPath>src/kyotocabinet/kccompare.cc</itemPath>
+        <itemPath>src/kyotocabinet/kccompress.cc</itemPath>
+        <itemPath>src/kyotocabinet/kcdb.cc</itemPath>
+        <itemPath>src/kyotocabinet/kcdbext.cc</itemPath>
+        <itemPath>src/kyotocabinet/kcdirdb.cc</itemPath>
+        <itemPath>src/kyotocabinet/kcdirmgr.cc</itemPath>
+        <itemPath>src/kyotocabinet/kcdirtest.cc</itemPath>
+        <itemPath>src/kyotocabinet/kcfile.cc</itemPath>
+        <itemPath>src/kyotocabinet/kcforestmgr.cc</itemPath>
+        <itemPath>src/kyotocabinet/kchashdb.cc</itemPath>
+        <itemPath>src/kyotocabinet/kchashmgr.cc</itemPath>
+        <itemPath>src/kyotocabinet/kclangc.cc</itemPath>
+        <itemPath>src/kyotocabinet/kcmap.cc</itemPath>
+        <itemPath>src/kyotocabinet/kcplantdb.cc</itemPath>
+        <itemPath>src/kyotocabinet/kcpolydb.cc</itemPath>
+        <itemPath>src/kyotocabinet/kcpolymgr.cc</itemPath>
+        <itemPath>src/kyotocabinet/kcprotodb.cc</itemPath>
+        <itemPath>src/kyotocabinet/kcregex.cc</itemPath>
+        <itemPath>src/kyotocabinet/kcstashdb.cc</itemPath>
+        <itemPath>src/kyotocabinet/kctextdb.cc</itemPath>
+        <itemPath>src/kyotocabinet/kcthread.cc</itemPath>
+        <itemPath>src/kyotocabinet/kctreemgr.cc</itemPath>
+        <itemPath>src/kyotocabinet/kcutil.cc</itemPath>
+        <itemPath>src/kyotocabinet/kcutilmgr.cc</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="leveldb" projectFiles="true">
+        <logicalFolder name="f1" displayName="db" projectFiles="true">
+          <itemPath>src/leveldb/db/builder.cc</itemPath>
+          <itemPath>src/leveldb/db/builder.h</itemPath>
+          <itemPath>src/leveldb/db/c.cc</itemPath>
+          <itemPath>src/leveldb/db/db_bench.cc</itemPath>
+          <itemPath>src/leveldb/db/db_impl.cc</itemPath>
+          <itemPath>src/leveldb/db/db_impl.h</itemPath>
+          <itemPath>src/leveldb/db/db_iter.cc</itemPath>
+          <itemPath>src/leveldb/db/db_iter.h</itemPath>
+          <itemPath>src/leveldb/db/dbformat.cc</itemPath>
+          <itemPath>src/leveldb/db/dbformat.h</itemPath>
+          <itemPath>src/leveldb/db/dumpfile.cc</itemPath>
+          <itemPath>src/leveldb/db/log_reader.cc</itemPath>
+          <itemPath>src/leveldb/db/log_reader.h</itemPath>
+          <itemPath>src/leveldb/db/log_writer.cc</itemPath>
+          <itemPath>src/leveldb/db/log_writer.h</itemPath>
+          <itemPath>src/leveldb/db/memtable.cc</itemPath>
+          <itemPath>src/leveldb/db/memtable.h</itemPath>
+          <itemPath>src/leveldb/db/repair.cc</itemPath>
+          <itemPath>src/leveldb/db/skiplist.h</itemPath>
+          <itemPath>src/leveldb/db/snapshot.h</itemPath>
+          <itemPath>src/leveldb/db/table_cache.cc</itemPath>
+          <itemPath>src/leveldb/db/table_cache.h</itemPath>
+          <itemPath>src/leveldb/db/version_edit.cc</itemPath>
+          <itemPath>src/leveldb/db/version_edit.h</itemPath>
+          <itemPath>src/leveldb/db/version_set.cc</itemPath>
+          <itemPath>src/leveldb/db/version_set.h</itemPath>
+          <itemPath>src/leveldb/db/write_batch.cc</itemPath>
+          <itemPath>src/leveldb/db/write_batch_internal.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f2" displayName="table" projectFiles="true">
+          <itemPath>src/leveldb/table/block.cc</itemPath>
+          <itemPath>src/leveldb/table/block.h</itemPath>
+          <itemPath>src/leveldb/table/block_builder.cc</itemPath>
+          <itemPath>src/leveldb/table/block_builder.h</itemPath>
+          <itemPath>src/leveldb/table/filter_block.cc</itemPath>
+          <itemPath>src/leveldb/table/filter_block.h</itemPath>
+          <itemPath>src/leveldb/table/format.cc</itemPath>
+          <itemPath>src/leveldb/table/format.h</itemPath>
+          <itemPath>src/leveldb/table/iterator.cc</itemPath>
+          <itemPath>src/leveldb/table/iterator_wrapper.h</itemPath>
+          <itemPath>src/leveldb/table/merger.cc</itemPath>
+          <itemPath>src/leveldb/table/merger.h</itemPath>
+          <itemPath>src/leveldb/table/table.cc</itemPath>
+          <itemPath>src/leveldb/table/table_builder.cc</itemPath>
+          <itemPath>src/leveldb/table/two_level_iterator.cc</itemPath>
+          <itemPath>src/leveldb/table/two_level_iterator.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="util" displayName="util" projectFiles="true">
+          <itemPath>src/leveldb/util/arena.cc</itemPath>
+          <itemPath>src/leveldb/util/arena.h</itemPath>
+          <itemPath>src/leveldb/util/bloom.cc</itemPath>
+          <itemPath>src/leveldb/util/cache.cc</itemPath>
+          <itemPath>src/leveldb/util/coding.cc</itemPath>
+          <itemPath>src/leveldb/util/coding.h</itemPath>
+          <itemPath>src/leveldb/util/comparator.cc</itemPath>
+          <itemPath>src/leveldb/util/crc32c.cc</itemPath>
+          <itemPath>src/leveldb/util/crc32c.h</itemPath>
+          <itemPath>src/leveldb/util/crc32c_test.cc</itemPath>
+          <itemPath>src/leveldb/util/env.cc</itemPath>
+          <itemPath>src/leveldb/util/env_posix.cc</itemPath>
+          <itemPath>src/leveldb/util/filter_policy.cc</itemPath>
+          <itemPath>src/leveldb/util/hash.cc</itemPath>
+          <itemPath>src/leveldb/util/hash.h</itemPath>
+          <itemPath>src/leveldb/util/histogram.cc</itemPath>
+          <itemPath>src/leveldb/util/histogram.h</itemPath>
+          <itemPath>src/leveldb/util/logging.cc</itemPath>
+          <itemPath>src/leveldb/util/logging.h</itemPath>
+          <itemPath>src/leveldb/util/mutexlock.h</itemPath>
+          <itemPath>src/leveldb/util/options.cc</itemPath>
+          <itemPath>src/leveldb/util/posix_logger.h</itemPath>
+          <itemPath>src/leveldb/util/random.h</itemPath>
+          <itemPath>src/leveldb/util/status.cc</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="libstatgrab" displayName="libstatgrab" projectFiles="true">
+        <itemPath>src/libstatgrab/config.h</itemPath>
+        <itemPath>src/libstatgrab/cpu_stats.c</itemPath>
+        <itemPath>src/libstatgrab/disk_stats.c</itemPath>
+        <itemPath>src/libstatgrab/error.c</itemPath>
+        <itemPath>src/libstatgrab/error.h</itemPath>
+        <itemPath>src/libstatgrab/globals.c</itemPath>
+        <itemPath>src/libstatgrab/globals.h</itemPath>
+        <itemPath>src/libstatgrab/load_stats.c</itemPath>
+        <itemPath>src/libstatgrab/memory_stats.c</itemPath>
+        <itemPath>src/libstatgrab/network_stats.c</itemPath>
+        <itemPath>src/libstatgrab/os_info.c</itemPath>
+        <itemPath>src/libstatgrab/page_stats.c</itemPath>
+        <itemPath>src/libstatgrab/process_stats.c</itemPath>
+        <itemPath>src/libstatgrab/statgrab-config.h</itemPath>
+        <itemPath>src/libstatgrab/statgrab.h</itemPath>
+        <itemPath>src/libstatgrab/swap_stats.c</itemPath>
+        <itemPath>src/libstatgrab/tools.c</itemPath>
+        <itemPath>src/libstatgrab/tools.h</itemPath>
+        <itemPath>src/libstatgrab/trace.h</itemPath>
+        <itemPath>src/libstatgrab/user_stats.c</itemPath>
+        <itemPath>src/libstatgrab/vector.c</itemPath>
+        <itemPath>src/libstatgrab/vector.h</itemPath>
+        <itemPath>src/libstatgrab/win32.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="snappy" displayName="snappy" projectFiles="true">
+        <itemPath>src/snappy/config.h</itemPath>
+        <itemPath>src/snappy/snappy-internal.h</itemPath>
+        <itemPath>src/snappy/snappy-sinksource.cc</itemPath>
+        <itemPath>src/snappy/snappy-sinksource.h</itemPath>
+        <itemPath>src/snappy/snappy-stubs-internal.cc</itemPath>
+        <itemPath>src/snappy/snappy-stubs-internal.h</itemPath>
+        <itemPath>src/snappy/snappy-stubs-public.h</itemPath>
+        <itemPath>src/snappy/snappy.cc</itemPath>
+        <itemPath>src/snappy/snappy.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="zkadapter" displayName="zkadapter" projectFiles="true">
+        <itemPath>src/zkadapter/blockingqueue.h</itemPath>
+        <itemPath>src/zkadapter/event.cc</itemPath>
+        <itemPath>src/zkadapter/event.h</itemPath>
+        <itemPath>src/zkadapter/log.cc</itemPath>
+        <itemPath>src/zkadapter/log.h</itemPath>
+        <itemPath>src/zkadapter/mutex.h</itemPath>
+        <itemPath>src/zkadapter/thread.cc</itemPath>
+        <itemPath>src/zkadapter/thread.h</itemPath>
+        <itemPath>src/zkadapter/zkadapter.cc</itemPath>
+        <itemPath>src/zkadapter/zkadapter.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="zookeeper" displayName="zookeeper" projectFiles="true">
+        <logicalFolder name="hashtable" displayName="hashtable" projectFiles="true">
+          <itemPath>src/zookeeper/hashtable/LICENSE.txt</itemPath>
+          <itemPath>src/zookeeper/hashtable/hashtable.c</itemPath>
+          <itemPath>src/zookeeper/hashtable/hashtable.h</itemPath>
+          <itemPath>src/zookeeper/hashtable/hashtable_itr.c</itemPath>
+          <itemPath>src/zookeeper/hashtable/hashtable_itr.h</itemPath>
+          <itemPath>src/zookeeper/hashtable/hashtable_private.h</itemPath>
+        </logicalFolder>
+        <itemPath>src/zookeeper/config.h</itemPath>
+        <itemPath>src/zookeeper/mt_adaptor.c</itemPath>
+        <itemPath>src/zookeeper/proto.h</itemPath>
+        <itemPath>src/zookeeper/recordio.c</itemPath>
+        <itemPath>src/zookeeper/recordio.h</itemPath>
+        <itemPath>src/zookeeper/zk-config.h</itemPath>
+        <itemPath>src/zookeeper/zk_adaptor.h</itemPath>
+        <itemPath>src/zookeeper/zk_hashtable.c</itemPath>
+        <itemPath>src/zookeeper/zk_hashtable.h</itemPath>
+        <itemPath>src/zookeeper/zk_log.c</itemPath>
+        <itemPath>src/zookeeper/zookeeper.c</itemPath>
+        <itemPath>src/zookeeper/zookeeper.h</itemPath>
+        <itemPath>src/zookeeper/zookeeper.jute.c</itemPath>
+        <itemPath>src/zookeeper/zookeeper.jute.h</itemPath>
+        <itemPath>src/zookeeper/zookeeper_log.h</itemPath>
+        <itemPath>src/zookeeper/zookeeper_version.h</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <incDir>
+            <pElem>inc</pElem>
+            <pElem>../../contribs/SpecialContribs/src/hashkit</pElem>
+            <pElem>../../contribs/SpecialContribs/src/libstatgrab</pElem>
+            <pElem>../../contribs/SpecialContribs/src/zookeeper</pElem>
+            <pElem>../../contribs/SpecialContribs/src/leveldb</pElem>
+            <pElem>../../contribs/SpecialContribs/src/</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BUILD_LIBSTATGRAB</Elem>
+            <Elem>HAVE_CONFIG_H</Elem>
+            <Elem>THREADED</Elem>
+            <Elem>_GNU_SOURCE</Elem>
+          </preprocessorList>
+          <warningLevel>2</warningLevel>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>inc</pElem>
+            <pElem>include/kyotocabinet</pElem>
+            <pElem>../../contribs/SpecialContribs/src/hashkit</pElem>
+            <pElem>../../contribs/SpecialContribs/src/libstatgrab</pElem>
+            <pElem>../../contribs/SpecialContribs/src/leveldb</pElem>
+            <pElem>../../contribs/SpecialContribs/src/</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BUILD_LIBSTATGRAB</Elem>
+            <Elem>HAVE_CONFIG_H</Elem>
+            <Elem>LEVELDB_PLATFORM_POSIX</Elem>
+            <Elem>THREADED</Elem>
+            <Elem>_GNU_SOURCE</Elem>
+          </preprocessorList>
+        </ccTool>
+        <archiverTool>
+          <output>lib/libspecialcontribsd.a</output>
+        </archiverTool>
+      </compileType>
+      <item path="include/kyotocabinet/cmdcommon.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kccachedb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kccommon.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kccompare.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kccompress.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kcdb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kcdbext.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kcdirdb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kcfile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kchashdb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kclangc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kcmap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kcplantdb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kcpolydb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kcprotodb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kcregex.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kcstashdb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kctextdb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kcthread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kcutil.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/myconf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/leveldb/c.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/leveldb/cache.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/leveldb/comparator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/leveldb/db.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/leveldb/dumpfile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/leveldb/env.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/leveldb/filter_policy.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/leveldb/iterator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/leveldb/options.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/leveldb/slice.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/leveldb/status.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/leveldb/table.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/leveldb/table_builder.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/leveldb/write_batch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/snappy/snappy-stubs-public.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/snappy/snappy.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/hashkit/algorithm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/hashkit/algorithm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/hashkit/behavior.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/hashkit/behavior.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/hashkit/common.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/hashkit/config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/hashkit/configure.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/hashkit/crc32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/hashkit/digest.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/hashkit/digest.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/hashkit/fnv.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/hashkit/function.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/hashkit/function.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/hashkit/hashkit.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/hashkit/hashkit.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/hashkit/hsieh.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/hashkit/jenkins.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/hashkit/ketama.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/hashkit/md5.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/hashkit/murmur.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/hashkit/one_at_a_time.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/hashkit/strerror.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/hashkit/strerror.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/hashkit/types.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/hashkit/visibility.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kccachedb.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kccompare.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kccompress.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kcdb.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kcdbext.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kcdirdb.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kcdirmgr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kcdirtest.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kcfile.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kcforestmgr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kchashdb.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kchashmgr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kclangc.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kcmap.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kcplantdb.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kcpolydb.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kcpolymgr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kcprotodb.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kcregex.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kcstashdb.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kctextdb.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kcthread.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kctreemgr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kcutil.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kcutilmgr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/builder.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/builder.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/c.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/db_bench.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/db_impl.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/db_impl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/db_iter.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/db_iter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/dbformat.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/dbformat.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/dumpfile.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/log_reader.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/log_reader.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/log_writer.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/log_writer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/memtable.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/memtable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/repair.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/skiplist.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/snapshot.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/table_cache.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/table_cache.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/version_edit.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/version_edit.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/version_set.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/version_set.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/write_batch.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/write_batch_internal.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/leveldb/table/block.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/table/block.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/table/block_builder.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/table/block_builder.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/table/filter_block.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/table/filter_block.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/table/format.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/table/format.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/table/iterator.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/table/iterator_wrapper.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/leveldb/table/merger.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/table/merger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/table/table.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/table/table_builder.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/table/two_level_iterator.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/leveldb/table/two_level_iterator.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/leveldb/util/arena.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/arena.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/bloom.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/cache.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/coding.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/coding.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/comparator.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/crc32c.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/crc32c.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/crc32c_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/env.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/env_posix.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/filter_policy.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/hash.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/hash.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/histogram.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/histogram.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/logging.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/logging.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/mutexlock.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/options.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/posix_logger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/random.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/status.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/cpu_stats.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/disk_stats.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/error.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/error.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/globals.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/globals.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/load_stats.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/memory_stats.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/network_stats.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/os_info.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/page_stats.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/process_stats.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/statgrab-config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/statgrab.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/swap_stats.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/tools.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/tools.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/trace.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/user_stats.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/vector.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/vector.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/win32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/snappy/config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/snappy/snappy-internal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/snappy/snappy-sinksource.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/snappy/snappy-sinksource.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/snappy/snappy-stubs-internal.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/snappy/snappy-stubs-internal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/snappy/snappy-stubs-public.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/snappy/snappy.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/snappy/snappy.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/zkadapter/blockingqueue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/zkadapter/event.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/zkadapter/event.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/zkadapter/log.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/zkadapter/log.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/zkadapter/mutex.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/zkadapter/thread.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/zkadapter/thread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/zkadapter/zkadapter.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/zkadapter/zkadapter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/zookeeper/config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/zookeeper/hashtable/LICENSE.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/zookeeper/hashtable/hashtable.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/zookeeper/hashtable/hashtable.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/zookeeper/hashtable/hashtable_itr.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/zookeeper/hashtable/hashtable_itr.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/zookeeper/hashtable/hashtable_private.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/zookeeper/mt_adaptor.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/zookeeper/proto.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/zookeeper/recordio.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/zookeeper/recordio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/zookeeper/zk-config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/zookeeper/zk_adaptor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/zookeeper/zk_hashtable.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/zookeeper/zk_hashtable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/zookeeper/zk_log.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/zookeeper/zookeeper.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/zookeeper/zookeeper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/zookeeper/zookeeper.jute.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/zookeeper/zookeeper.jute.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/zookeeper/zookeeper_log.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/zookeeper/zookeeper_version.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>inc</pElem>
+            <pElem>../../contribs/SpecialContribs/src/hashkit</pElem>
+            <pElem>../../contribs/SpecialContribs/src/libstatgrab</pElem>
+            <pElem>../../contribs/SpecialContribs/src/zookeeper</pElem>
+            <pElem>../../contribs/SpecialContribs/src/leveldb</pElem>
+            <pElem>../../contribs/SpecialContribs/src/</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BUILD_LIBSTATGRAB</Elem>
+            <Elem>HAVE_CONFIG_H</Elem>
+            <Elem>THREADED</Elem>
+            <Elem>_GNU_SOURCE</Elem>
+          </preprocessorList>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>inc</pElem>
+            <pElem>../../contribs/SpecialContribs/src/hashkit</pElem>
+            <pElem>../../contribs/SpecialContribs/src/libstatgrab</pElem>
+            <pElem>../../contribs/SpecialContribs/src/leveldb</pElem>
+            <pElem>../../contribs/SpecialContribs/src/</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BUILD_LIBSTATGRAB</Elem>
+            <Elem>HAVE_CONFIG_H</Elem>
+            <Elem>THREADED</Elem>
+            <Elem>_GNU_SOURCE</Elem>
+          </preprocessorList>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <archiverTool>
+          <output>lib/libspecialcontribs.a</output>
+        </archiverTool>
+      </compileType>
+      <item path="include/kyotocabinet/cmdcommon.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kccachedb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kccommon.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kccompare.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kccompress.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kcdb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kcdbext.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kcdirdb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kcfile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kchashdb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kclangc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kcmap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kcplantdb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kcpolydb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kcprotodb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kcregex.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kcstashdb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kctextdb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kcthread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/kcutil.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/kyotocabinet/myconf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/leveldb/c.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/leveldb/cache.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/leveldb/comparator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/leveldb/db.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/leveldb/dumpfile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/leveldb/env.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/leveldb/filter_policy.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/leveldb/iterator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/leveldb/options.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/leveldb/slice.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/leveldb/status.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/leveldb/table.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/leveldb/table_builder.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/leveldb/write_batch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/snappy/snappy-stubs-public.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/snappy/snappy.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/hashkit/algorithm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/hashkit/algorithm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/hashkit/behavior.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/hashkit/behavior.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/hashkit/common.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/hashkit/config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/hashkit/configure.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/hashkit/crc32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/hashkit/digest.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/hashkit/digest.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/hashkit/fnv.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/hashkit/function.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/hashkit/function.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/hashkit/hashkit.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/hashkit/hashkit.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/hashkit/hsieh.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/hashkit/jenkins.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/hashkit/ketama.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/hashkit/md5.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/hashkit/murmur.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/hashkit/one_at_a_time.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/hashkit/strerror.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/hashkit/strerror.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/hashkit/types.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/hashkit/visibility.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kccachedb.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kccompare.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kccompress.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kcdb.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kcdbext.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kcdirdb.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kcdirmgr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kcdirtest.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kcfile.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kcforestmgr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kchashdb.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kchashmgr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kclangc.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kcmap.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kcplantdb.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kcpolydb.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kcpolymgr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kcprotodb.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kcregex.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kcstashdb.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kctextdb.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kcthread.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kctreemgr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kcutil.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/kyotocabinet/kcutilmgr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/builder.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/builder.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/c.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/db_bench.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/db_impl.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/db_impl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/db_iter.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/db_iter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/dbformat.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/dbformat.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/dumpfile.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/log_reader.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/log_reader.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/log_writer.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/log_writer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/memtable.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/memtable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/repair.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/skiplist.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/snapshot.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/table_cache.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/table_cache.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/version_edit.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/version_edit.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/version_set.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/version_set.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/write_batch.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/db/write_batch_internal.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/leveldb/table/block.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/table/block.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/table/block_builder.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/table/block_builder.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/table/filter_block.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/table/filter_block.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/table/format.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/table/format.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/table/iterator.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/table/iterator_wrapper.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/leveldb/table/merger.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/table/merger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/table/table.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/table/table_builder.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/table/two_level_iterator.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/leveldb/table/two_level_iterator.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/leveldb/util/arena.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/arena.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/bloom.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/cache.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/coding.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/coding.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/comparator.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/crc32c.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/crc32c.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/crc32c_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/env.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/env_posix.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/filter_policy.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/hash.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/hash.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/histogram.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/histogram.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/logging.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/logging.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/mutexlock.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/options.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/posix_logger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/random.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/util/status.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/cpu_stats.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/disk_stats.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/error.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/error.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/globals.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/globals.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/load_stats.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/memory_stats.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/network_stats.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/os_info.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/page_stats.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/process_stats.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/statgrab-config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/statgrab.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/swap_stats.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/tools.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/tools.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/trace.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/user_stats.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/vector.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/vector.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libstatgrab/win32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/snappy/config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/snappy/snappy-internal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/snappy/snappy-sinksource.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/snappy/snappy-sinksource.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/snappy/snappy-stubs-internal.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/snappy/snappy-stubs-internal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/snappy/snappy-stubs-public.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/snappy/snappy.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/snappy/snappy.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/zkadapter/blockingqueue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/zkadapter/event.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/zkadapter/event.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/zkadapter/log.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/zkadapter/log.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/zkadapter/mutex.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/zkadapter/thread.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/zkadapter/thread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/zkadapter/zkadapter.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/zkadapter/zkadapter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/zookeeper/config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/zookeeper/hashtable/LICENSE.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/zookeeper/hashtable/hashtable.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/zookeeper/hashtable/hashtable.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/zookeeper/hashtable/hashtable_itr.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/zookeeper/hashtable/hashtable_itr.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/zookeeper/hashtable/hashtable_private.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/zookeeper/mt_adaptor.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/zookeeper/proto.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/zookeeper/recordio.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/zookeeper/recordio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/zookeeper/zk-config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/zookeeper/zk_adaptor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/zookeeper/zk_hashtable.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/zookeeper/zk_hashtable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/zookeeper/zk_log.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/zookeeper/zookeeper.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/zookeeper/zookeeper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/zookeeper/zookeeper.jute.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/zookeeper/zookeeper.jute.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/zookeeper/zookeeper_log.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/zookeeper/zookeeper_version.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
