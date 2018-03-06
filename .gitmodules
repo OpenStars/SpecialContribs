@@ -1,0 +1,7 @@
+#contribs
+
+[submodule "sources/rockdb"]
+	path = sources/rockdb
+	url = https://github.com/facebook/rocksdb.git
+	branch = v5.10.4
+
