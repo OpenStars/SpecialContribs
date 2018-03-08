@@ -845,11 +845,11 @@
         <cTool>
           <incDir>
             <pElem>inc</pElem>
-            <pElem>../../contribs/SpecialContribs/src/hashkit</pElem>
-            <pElem>../../contribs/SpecialContribs/src/libstatgrab</pElem>
-            <pElem>../../contribs/SpecialContribs/src/zookeeper</pElem>
-            <pElem>../../contribs/SpecialContribs/src/leveldb</pElem>
-            <pElem>../../contribs/SpecialContribs/src/</pElem>
+            <pElem>/src/hashkit</pElem>
+            <pElem>/src/libstatgrab</pElem>
+            <pElem>/src/zookeeper</pElem>
+            <pElem>/src/leveldb</pElem>
+            <pElem>/src/</pElem>
           </incDir>
           <preprocessorList>
             <Elem>BUILD_LIBSTATGRAB</Elem>
@@ -863,11 +863,11 @@
           <incDir>
             <pElem>inc</pElem>
             <pElem>include/kyotocabinet</pElem>
-            <pElem>../../contribs/SpecialContribs/src/hashkit</pElem>
-            <pElem>../../contribs/SpecialContribs/src/libstatgrab</pElem>
-            <pElem>../../contribs/SpecialContribs/src/rocksdb</pElem>
-            <pElem>../../contribs/SpecialContribs/src/</pElem>
-            <pElem>../../contribs/SpecialContribs/src/leveldb</pElem>
+            <pElem>/src/hashkit</pElem>
+            <pElem>/src/libstatgrab</pElem>
+            <pElem>/src/rocksdb</pElem>
+            <pElem>/src/</pElem>
+            <pElem>/src/leveldb</pElem>
           </incDir>
           <preprocessorList>
             <Elem>BUILD_LIBSTATGRAB</Elem>
@@ -3436,11 +3436,11 @@
           <developmentMode>5</developmentMode>
           <incDir>
             <pElem>inc</pElem>
-            <pElem>../../contribs/SpecialContribs/src/hashkit</pElem>
-            <pElem>../../contribs/SpecialContribs/src/libstatgrab</pElem>
-            <pElem>../../contribs/SpecialContribs/src/zookeeper</pElem>
-            <pElem>../../contribs/SpecialContribs/src/leveldb</pElem>
-            <pElem>../../contribs/SpecialContribs/src/</pElem>
+            <pElem>/src/hashkit</pElem>
+            <pElem>/src/libstatgrab</pElem>
+            <pElem>/src/zookeeper</pElem>
+            <pElem>/src/leveldb</pElem>
+            <pElem>/src/</pElem>
           </incDir>
           <preprocessorList>
             <Elem>BUILD_LIBSTATGRAB</Elem>
@@ -3454,11 +3454,11 @@
           <incDir>
             <pElem>inc</pElem>
             <pElem>include/kyotocabinet</pElem>
-            <pElem>../../contribs/SpecialContribs/src/hashkit</pElem>
-            <pElem>../../contribs/SpecialContribs/src/libstatgrab</pElem>
-            <pElem>../../contribs/SpecialContribs/src/rocksdb</pElem>
-            <pElem>../../contribs/SpecialContribs/src/</pElem>
-            <pElem>../../contribs/SpecialContribs/src/leveldb</pElem>
+            <pElem>/src/hashkit</pElem>
+            <pElem>/src/libstatgrab</pElem>
+            <pElem>/src/rocksdb</pElem>
+            <pElem>/src/</pElem>
+            <pElem>/src/leveldb</pElem>
           </incDir>
           <preprocessorList>
             <Elem>BUILD_LIBSTATGRAB</Elem>
