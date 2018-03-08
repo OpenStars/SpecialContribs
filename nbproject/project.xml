@@ -9,7 +9,11 @@
             <header-extensions>h</header-extensions>
             <sourceEncoding>UTF-8</sourceEncoding>
             <make-dep-projects/>
-            <sourceRootList/>
+            <sourceRootList>
+                <sourceRootElem>src/leveldb/helpers</sourceRootElem>
+                <sourceRootElem>src/rocksdb/db</sourceRootElem>
+                <sourceRootElem>include/rocksdb/utilities</sourceRootElem>
+            </sourceRootList>
             <confList>
                 <confElem>
                     <name>Debug</name>
