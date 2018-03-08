@@ -8,9 +8,34 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group name="hcore2017"/>
         <group name="Trades">
-            <file>file:/data/data/src/cpp/hcore2017/contribs/SpecialContribs/include/kyotocabinet/kchashdb.h</file>
+            <file>file:/data/data/src/cpp/hcore2017/contribs/SpecialContribs/inc/rocksdb/slice.h</file>
+            <file>file:/data/data/src/cpp/hcore2017/contribs/SpecialContribs/src/rocksdb/memtable/write_buffer_manager.cc</file>
+            <file>file:/data/data/src/cpp/hcore2017/contribs/SpecialContribs/src/leveldb/util/logging.h</file>
+            <file>file:/data/data/src/cpp/hcore2017/contribs/SpecialContribs/src/rocksdb/env/io_posix.cc</file>
+            <file>file:/data/data/src/cpp/hcore2017/contribs/SpecialContribs/inc/rocksdb/env.h</file>
+            <file>file:/data/data/src/cpp/hcore2017/contribs/SpecialContribs/src/rocksdb/env/env_posix.cc</file>
+            <file>file:/data/data/src/cpp/hcore2017/contribs/SpecialContribs/src/leveldb/util/crc32c_test.cc</file>
+            <file>file:/data/data/src/cpp/hcore2017/contribs/SpecialContribs/src/rocksdb/db/db_impl_open.cc</file>
+            <file>file:/data/data/src/cpp/hcore2017/contribs/SpecialContribs/src/rocksdb/db/db_impl.h</file>
+            <file>file:/data/data/src/cpp/hcore2017/contribs/SpecialContribs/src/rocksdb/port/port_posix.h</file>
             <file>file:/data/data/src/cpp/hcore2017/contribs/SpecialContribs/src/leveldb/db/db_impl.cc</file>
+            <file>file:/data/data/src/cpp/hcore2017/services/contribs/SpecialContribs/src/leveldb/db/filename.cc</file>
+            <file>file:/data/data/src/cpp/hcore2017/contribs/SpecialContribs/src/leveldb/db/builder.cc</file>
             <file>file:/data/data/src/cpp/hcore2017/contribs/SpecialContribs/src/leveldb/db/filename.h</file>
+            <file>file:/data/data/src/cpp/hcore2017/contribs/SpecialContribs/src/rocksdb/env/io_posix.h</file>
+            <file>file:/data/data/src/cpp/hcore2017/contribs/SpecialContribs/inc/rocksdb/cache.h</file>
+            <file>file:/data/data/src/cpp/hcore2017/contribs/SpecialContribs/src/rocksdb/memtable/stl_wrappers.h</file>
+            <file>file:/data/data/src/cpp/hcore2017/services/contribs/SpecialContribs/src/leveldb/port/port_posix.cc</file>
+            <file>file:/data/data/src/cpp/hcore2017/contribs/SpecialContribs/src/leveldb/util/logging.cc</file>
+            <file>file:/data/data/src/cpp/hcore2017/contribs/SpecialContribs/src/rocksdb/db/db_impl.cc</file>
+            <file>file:/data/data/src/cpp/hcore2017/contribs/SpecialContribs/include/rocksdb/options.h</file>
+            <file>file:/data/data/src/cpp/hcore2017/contribs/SpecialContribs/inc/rocksdb/db.h</file>
+            <file>file:/data/data/src/cpp/hcore2017/contribs/SpecialContribs/include/kyotocabinet/kchashdb.h</file>
+            <file>file:/data/data/src/cpp/hcore2017/contribs/SpecialContribs/src/leveldb/table/block.cc</file>
+            <file>file:/data/data/src/cpp/hcore2017/contribs/SpecialContribs/src/rocksdb/memtable/hash_cuckoo_rep.h</file>
+            <file>file:/data/data/src/cpp/hcore2017/contribs/SpecialContribs/src/leveldb/helpers/memenv/memenv.cc</file>
+            <file>file:/data/data/src/cpp/hcore2017/contribs/SpecialContribs/src/rocksdb/util/logging.h</file>
+            <file>file:/data/data/src/cpp/hcore2017/contribs/SpecialContribs/src/rocksdb/port/port_posix.cc</file>
         </group>
     </open-files>
 </project-private>

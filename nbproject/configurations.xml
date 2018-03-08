@@ -237,14 +237,14 @@
           </logicalFolder>
         </logicalFolder>
         <logicalFolder name="f3" displayName="port" projectFiles="true">
-          <itemPath>../../services/contribs/SpecialContribs/src/leveldb/port/README</itemPath>
-          <itemPath>../../services/contribs/SpecialContribs/src/leveldb/port/atomic_pointer.h</itemPath>
-          <itemPath>../../services/contribs/SpecialContribs/src/leveldb/port/port.h</itemPath>
-          <itemPath>../../services/contribs/SpecialContribs/src/leveldb/port/port_example.h</itemPath>
-          <itemPath>../../services/contribs/SpecialContribs/src/leveldb/port/port_posix.cc</itemPath>
-          <itemPath>../../services/contribs/SpecialContribs/src/leveldb/port/port_posix.h</itemPath>
-          <itemPath>../../services/contribs/SpecialContribs/src/leveldb/port/port_posix_sse.cc</itemPath>
-          <itemPath>../../services/contribs/SpecialContribs/src/leveldb/port/thread_annotations.h</itemPath>
+          <itemPath>src/leveldb/port/README</itemPath>
+          <itemPath>src/leveldb/port/atomic_pointer.h</itemPath>
+          <itemPath>src/leveldb/port/port.h</itemPath>
+          <itemPath>src/leveldb/port/port_example.h</itemPath>
+          <itemPath>src/leveldb/port/port_posix.cc</itemPath>
+          <itemPath>src/leveldb/port/port_posix.h</itemPath>
+          <itemPath>src/leveldb/port/port_posix_sse.cc</itemPath>
+          <itemPath>src/leveldb/port/thread_annotations.h</itemPath>
         </logicalFolder>
         <logicalFolder name="f2" displayName="table" projectFiles="true">
           <itemPath>src/leveldb/table/block.cc</itemPath>
@@ -290,7 +290,7 @@
           <itemPath>src/leveldb/util/random.h</itemPath>
           <itemPath>src/leveldb/util/status.cc</itemPath>
         </logicalFolder>
-        <itemPath>../../services/contribs/SpecialContribs/src/leveldb/db/filename.cc</itemPath>
+        <itemPath>src/leveldb/db/filename.cc</itemPath>
       </logicalFolder>
       <logicalFolder name="libstatgrab" displayName="libstatgrab" projectFiles="true">
         <itemPath>src/libstatgrab/config.h</itemPath>
@@ -833,11 +833,6 @@
       <itemPath>Makefile</itemPath>
     </logicalFolder>
   </logicalFolder>
-  <sourceRootList>
-    <Elem>src/leveldb/helpers</Elem>
-    <Elem>src/rocksdb/db</Elem>
-    <Elem>include/rocksdb/utilities</Elem>
-  </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
     <conf name="Debug" type="3">
@@ -889,7 +884,7 @@
           <output>lib/libspecialcontribsd.a</output>
         </archiverTool>
       </compileType>
-      <item path="../../services/contribs/SpecialContribs/src/leveldb/db/filename.cc"
+      <item path="src/leveldb/db/filename.cc"
             ex="false"
             tool="1"
             flavor2="0">
@@ -899,42 +894,42 @@
           </incDir>
         </ccTool>
       </item>
-      <item path="../../services/contribs/SpecialContribs/src/leveldb/port/README"
+      <item path="src/leveldb/port/README"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../services/contribs/SpecialContribs/src/leveldb/port/atomic_pointer.h"
+      <item path="src/leveldb/port/atomic_pointer.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../services/contribs/SpecialContribs/src/leveldb/port/port.h"
+      <item path="src/leveldb/port/port.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../services/contribs/SpecialContribs/src/leveldb/port/port_example.h"
+      <item path="src/leveldb/port/port_example.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../services/contribs/SpecialContribs/src/leveldb/port/port_posix.cc"
+      <item path="src/leveldb/port/port_posix.cc"
             ex="false"
             tool="1"
             flavor2="0">
       </item>
-      <item path="../../services/contribs/SpecialContribs/src/leveldb/port/port_posix.h"
+      <item path="src/leveldb/port/port_posix.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../services/contribs/SpecialContribs/src/leveldb/port/port_posix_sse.cc"
+      <item path="src/leveldb/port/port_posix_sse.cc"
             ex="false"
             tool="1"
             flavor2="0">
       </item>
-      <item path="../../services/contribs/SpecialContribs/src/leveldb/port/thread_annotations.h"
+      <item path="src/leveldb/port/thread_annotations.h"
             ex="false"
             tool="3"
             flavor2="0">
@@ -3486,7 +3481,7 @@
           <output>lib/libspecialcontribs.a</output>
         </archiverTool>
       </compileType>
-      <item path="../../services/contribs/SpecialContribs/src/leveldb/db/filename.cc"
+      <item path="src/leveldb/db/filename.cc"
             ex="false"
             tool="1"
             flavor2="0">
@@ -3496,27 +3491,27 @@
           </incDir>
         </ccTool>
       </item>
-      <item path="../../services/contribs/SpecialContribs/src/leveldb/port/README"
+      <item path="src/leveldb/port/README"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../services/contribs/SpecialContribs/src/leveldb/port/atomic_pointer.h"
+      <item path="src/leveldb/port/atomic_pointer.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../services/contribs/SpecialContribs/src/leveldb/port/port.h"
+      <item path="src/leveldb/port/port.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../services/contribs/SpecialContribs/src/leveldb/port/port_example.h"
+      <item path="src/leveldb/port/port_example.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../services/contribs/SpecialContribs/src/leveldb/port/port_posix.cc"
+      <item path="src/leveldb/port/port_posix.cc"
             ex="false"
             tool="1"
             flavor2="0">
@@ -3526,12 +3521,12 @@
           </incDir>
         </ccTool>
       </item>
-      <item path="../../services/contribs/SpecialContribs/src/leveldb/port/port_posix.h"
+      <item path="src/leveldb/port/port_posix.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../services/contribs/SpecialContribs/src/leveldb/port/port_posix_sse.cc"
+      <item path="src/leveldb/port/port_posix_sse.cc"
             ex="false"
             tool="1"
             flavor2="0">
@@ -3541,7 +3536,7 @@
           </incDir>
         </ccTool>
       </item>
-      <item path="../../services/contribs/SpecialContribs/src/leveldb/port/thread_annotations.h"
+      <item path="src/leveldb/port/thread_annotations.h"
             ex="false"
             tool="3"
             flavor2="0">
