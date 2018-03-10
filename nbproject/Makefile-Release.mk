@@ -463,337 +463,337 @@ ${OBJECTDIR}/src/hashkit/strerror.o: src/hashkit/strerror.c
 ${OBJECTDIR}/src/kyotocabinet/kccachedb.o: src/kyotocabinet/kccachedb.cc
 	${MKDIR} -p ${OBJECTDIR}/src/kyotocabinet
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kccachedb.o src/kyotocabinet/kccachedb.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kccachedb.o src/kyotocabinet/kccachedb.cc
 
 ${OBJECTDIR}/src/kyotocabinet/kccompare.o: src/kyotocabinet/kccompare.cc
 	${MKDIR} -p ${OBJECTDIR}/src/kyotocabinet
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kccompare.o src/kyotocabinet/kccompare.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kccompare.o src/kyotocabinet/kccompare.cc
 
 ${OBJECTDIR}/src/kyotocabinet/kccompress.o: src/kyotocabinet/kccompress.cc
 	${MKDIR} -p ${OBJECTDIR}/src/kyotocabinet
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kccompress.o src/kyotocabinet/kccompress.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kccompress.o src/kyotocabinet/kccompress.cc
 
 ${OBJECTDIR}/src/kyotocabinet/kcdb.o: src/kyotocabinet/kcdb.cc
 	${MKDIR} -p ${OBJECTDIR}/src/kyotocabinet
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kcdb.o src/kyotocabinet/kcdb.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kcdb.o src/kyotocabinet/kcdb.cc
 
 ${OBJECTDIR}/src/kyotocabinet/kcdbext.o: src/kyotocabinet/kcdbext.cc
 	${MKDIR} -p ${OBJECTDIR}/src/kyotocabinet
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kcdbext.o src/kyotocabinet/kcdbext.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kcdbext.o src/kyotocabinet/kcdbext.cc
 
 ${OBJECTDIR}/src/kyotocabinet/kcdirdb.o: src/kyotocabinet/kcdirdb.cc
 	${MKDIR} -p ${OBJECTDIR}/src/kyotocabinet
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kcdirdb.o src/kyotocabinet/kcdirdb.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kcdirdb.o src/kyotocabinet/kcdirdb.cc
 
 ${OBJECTDIR}/src/kyotocabinet/kcdirmgr.o: src/kyotocabinet/kcdirmgr.cc
 	${MKDIR} -p ${OBJECTDIR}/src/kyotocabinet
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kcdirmgr.o src/kyotocabinet/kcdirmgr.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kcdirmgr.o src/kyotocabinet/kcdirmgr.cc
 
 ${OBJECTDIR}/src/kyotocabinet/kcdirtest.o: src/kyotocabinet/kcdirtest.cc
 	${MKDIR} -p ${OBJECTDIR}/src/kyotocabinet
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kcdirtest.o src/kyotocabinet/kcdirtest.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kcdirtest.o src/kyotocabinet/kcdirtest.cc
 
 ${OBJECTDIR}/src/kyotocabinet/kcfile.o: src/kyotocabinet/kcfile.cc
 	${MKDIR} -p ${OBJECTDIR}/src/kyotocabinet
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kcfile.o src/kyotocabinet/kcfile.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kcfile.o src/kyotocabinet/kcfile.cc
 
 ${OBJECTDIR}/src/kyotocabinet/kcforestmgr.o: src/kyotocabinet/kcforestmgr.cc
 	${MKDIR} -p ${OBJECTDIR}/src/kyotocabinet
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kcforestmgr.o src/kyotocabinet/kcforestmgr.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kcforestmgr.o src/kyotocabinet/kcforestmgr.cc
 
 ${OBJECTDIR}/src/kyotocabinet/kchashdb.o: src/kyotocabinet/kchashdb.cc
 	${MKDIR} -p ${OBJECTDIR}/src/kyotocabinet
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kchashdb.o src/kyotocabinet/kchashdb.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kchashdb.o src/kyotocabinet/kchashdb.cc
 
 ${OBJECTDIR}/src/kyotocabinet/kchashmgr.o: src/kyotocabinet/kchashmgr.cc
 	${MKDIR} -p ${OBJECTDIR}/src/kyotocabinet
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kchashmgr.o src/kyotocabinet/kchashmgr.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kchashmgr.o src/kyotocabinet/kchashmgr.cc
 
 ${OBJECTDIR}/src/kyotocabinet/kclangc.o: src/kyotocabinet/kclangc.cc
 	${MKDIR} -p ${OBJECTDIR}/src/kyotocabinet
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kclangc.o src/kyotocabinet/kclangc.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kclangc.o src/kyotocabinet/kclangc.cc
 
 ${OBJECTDIR}/src/kyotocabinet/kcmap.o: src/kyotocabinet/kcmap.cc
 	${MKDIR} -p ${OBJECTDIR}/src/kyotocabinet
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kcmap.o src/kyotocabinet/kcmap.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kcmap.o src/kyotocabinet/kcmap.cc
 
 ${OBJECTDIR}/src/kyotocabinet/kcplantdb.o: src/kyotocabinet/kcplantdb.cc
 	${MKDIR} -p ${OBJECTDIR}/src/kyotocabinet
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kcplantdb.o src/kyotocabinet/kcplantdb.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kcplantdb.o src/kyotocabinet/kcplantdb.cc
 
 ${OBJECTDIR}/src/kyotocabinet/kcpolydb.o: src/kyotocabinet/kcpolydb.cc
 	${MKDIR} -p ${OBJECTDIR}/src/kyotocabinet
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kcpolydb.o src/kyotocabinet/kcpolydb.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kcpolydb.o src/kyotocabinet/kcpolydb.cc
 
 ${OBJECTDIR}/src/kyotocabinet/kcpolymgr.o: src/kyotocabinet/kcpolymgr.cc
 	${MKDIR} -p ${OBJECTDIR}/src/kyotocabinet
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kcpolymgr.o src/kyotocabinet/kcpolymgr.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kcpolymgr.o src/kyotocabinet/kcpolymgr.cc
 
 ${OBJECTDIR}/src/kyotocabinet/kcprotodb.o: src/kyotocabinet/kcprotodb.cc
 	${MKDIR} -p ${OBJECTDIR}/src/kyotocabinet
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kcprotodb.o src/kyotocabinet/kcprotodb.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kcprotodb.o src/kyotocabinet/kcprotodb.cc
 
 ${OBJECTDIR}/src/kyotocabinet/kcregex.o: src/kyotocabinet/kcregex.cc
 	${MKDIR} -p ${OBJECTDIR}/src/kyotocabinet
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kcregex.o src/kyotocabinet/kcregex.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kcregex.o src/kyotocabinet/kcregex.cc
 
 ${OBJECTDIR}/src/kyotocabinet/kcstashdb.o: src/kyotocabinet/kcstashdb.cc
 	${MKDIR} -p ${OBJECTDIR}/src/kyotocabinet
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kcstashdb.o src/kyotocabinet/kcstashdb.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kcstashdb.o src/kyotocabinet/kcstashdb.cc
 
 ${OBJECTDIR}/src/kyotocabinet/kctextdb.o: src/kyotocabinet/kctextdb.cc
 	${MKDIR} -p ${OBJECTDIR}/src/kyotocabinet
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kctextdb.o src/kyotocabinet/kctextdb.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kctextdb.o src/kyotocabinet/kctextdb.cc
 
 ${OBJECTDIR}/src/kyotocabinet/kcthread.o: src/kyotocabinet/kcthread.cc
 	${MKDIR} -p ${OBJECTDIR}/src/kyotocabinet
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kcthread.o src/kyotocabinet/kcthread.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kcthread.o src/kyotocabinet/kcthread.cc
 
 ${OBJECTDIR}/src/kyotocabinet/kctreemgr.o: src/kyotocabinet/kctreemgr.cc
 	${MKDIR} -p ${OBJECTDIR}/src/kyotocabinet
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kctreemgr.o src/kyotocabinet/kctreemgr.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kctreemgr.o src/kyotocabinet/kctreemgr.cc
 
 ${OBJECTDIR}/src/kyotocabinet/kcutil.o: src/kyotocabinet/kcutil.cc
 	${MKDIR} -p ${OBJECTDIR}/src/kyotocabinet
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kcutil.o src/kyotocabinet/kcutil.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kcutil.o src/kyotocabinet/kcutil.cc
 
 ${OBJECTDIR}/src/kyotocabinet/kcutilmgr.o: src/kyotocabinet/kcutilmgr.cc
 	${MKDIR} -p ${OBJECTDIR}/src/kyotocabinet
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kcutilmgr.o src/kyotocabinet/kcutilmgr.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/kyotocabinet/kcutilmgr.o src/kyotocabinet/kcutilmgr.cc
 
 ${OBJECTDIR}/src/leveldb/db/builder.o: src/leveldb/db/builder.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/db/builder.o src/leveldb/db/builder.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/db/builder.o src/leveldb/db/builder.cc
 
 ${OBJECTDIR}/src/leveldb/db/c.o: src/leveldb/db/c.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/db/c.o src/leveldb/db/c.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/db/c.o src/leveldb/db/c.cc
 
 ${OBJECTDIR}/src/leveldb/db/db_bench.o: src/leveldb/db/db_bench.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/db/db_bench.o src/leveldb/db/db_bench.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/db/db_bench.o src/leveldb/db/db_bench.cc
 
 ${OBJECTDIR}/src/leveldb/db/db_impl.o: src/leveldb/db/db_impl.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/db/db_impl.o src/leveldb/db/db_impl.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/db/db_impl.o src/leveldb/db/db_impl.cc
 
 ${OBJECTDIR}/src/leveldb/db/db_iter.o: src/leveldb/db/db_iter.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/db/db_iter.o src/leveldb/db/db_iter.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/db/db_iter.o src/leveldb/db/db_iter.cc
 
 ${OBJECTDIR}/src/leveldb/db/dbformat.o: src/leveldb/db/dbformat.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/db/dbformat.o src/leveldb/db/dbformat.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/db/dbformat.o src/leveldb/db/dbformat.cc
 
 ${OBJECTDIR}/src/leveldb/db/dumpfile.o: src/leveldb/db/dumpfile.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/db/dumpfile.o src/leveldb/db/dumpfile.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/db/dumpfile.o src/leveldb/db/dumpfile.cc
 
 ${OBJECTDIR}/src/leveldb/db/filename.o: src/leveldb/db/filename.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/db/filename.o src/leveldb/db/filename.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/db/filename.o src/leveldb/db/filename.cc
 
 ${OBJECTDIR}/src/leveldb/db/log_reader.o: src/leveldb/db/log_reader.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/db/log_reader.o src/leveldb/db/log_reader.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/db/log_reader.o src/leveldb/db/log_reader.cc
 
 ${OBJECTDIR}/src/leveldb/db/log_writer.o: src/leveldb/db/log_writer.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/db/log_writer.o src/leveldb/db/log_writer.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/db/log_writer.o src/leveldb/db/log_writer.cc
 
 ${OBJECTDIR}/src/leveldb/db/memtable.o: src/leveldb/db/memtable.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/db/memtable.o src/leveldb/db/memtable.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/db/memtable.o src/leveldb/db/memtable.cc
 
 ${OBJECTDIR}/src/leveldb/db/repair.o: src/leveldb/db/repair.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/db/repair.o src/leveldb/db/repair.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/db/repair.o src/leveldb/db/repair.cc
 
 ${OBJECTDIR}/src/leveldb/db/table_cache.o: src/leveldb/db/table_cache.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/db/table_cache.o src/leveldb/db/table_cache.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/db/table_cache.o src/leveldb/db/table_cache.cc
 
 ${OBJECTDIR}/src/leveldb/db/version_edit.o: src/leveldb/db/version_edit.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/db/version_edit.o src/leveldb/db/version_edit.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/db/version_edit.o src/leveldb/db/version_edit.cc
 
 ${OBJECTDIR}/src/leveldb/db/version_set.o: src/leveldb/db/version_set.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/db/version_set.o src/leveldb/db/version_set.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/db/version_set.o src/leveldb/db/version_set.cc
 
 ${OBJECTDIR}/src/leveldb/db/write_batch.o: src/leveldb/db/write_batch.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/db/write_batch.o src/leveldb/db/write_batch.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/db/write_batch.o src/leveldb/db/write_batch.cc
 
 ${OBJECTDIR}/src/leveldb/helpers/memenv/memenv.o: src/leveldb/helpers/memenv/memenv.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/helpers/memenv
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/helpers/memenv/memenv.o src/leveldb/helpers/memenv/memenv.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/helpers/memenv/memenv.o src/leveldb/helpers/memenv/memenv.cc
 
 ${OBJECTDIR}/src/leveldb/port/port_posix.o: src/leveldb/port/port_posix.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/port
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/port/port_posix.o src/leveldb/port/port_posix.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/port/port_posix.o src/leveldb/port/port_posix.cc
 
 ${OBJECTDIR}/src/leveldb/port/port_posix_sse.o: src/leveldb/port/port_posix_sse.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/port
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/port/port_posix_sse.o src/leveldb/port/port_posix_sse.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/port/port_posix_sse.o src/leveldb/port/port_posix_sse.cc
 
 ${OBJECTDIR}/src/leveldb/table/block.o: src/leveldb/table/block.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/table/block.o src/leveldb/table/block.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/table/block.o src/leveldb/table/block.cc
 
 ${OBJECTDIR}/src/leveldb/table/block_builder.o: src/leveldb/table/block_builder.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/table/block_builder.o src/leveldb/table/block_builder.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/table/block_builder.o src/leveldb/table/block_builder.cc
 
 ${OBJECTDIR}/src/leveldb/table/filter_block.o: src/leveldb/table/filter_block.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/table/filter_block.o src/leveldb/table/filter_block.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/table/filter_block.o src/leveldb/table/filter_block.cc
 
 ${OBJECTDIR}/src/leveldb/table/format.o: src/leveldb/table/format.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/table/format.o src/leveldb/table/format.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/table/format.o src/leveldb/table/format.cc
 
 ${OBJECTDIR}/src/leveldb/table/iterator.o: src/leveldb/table/iterator.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/table/iterator.o src/leveldb/table/iterator.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/table/iterator.o src/leveldb/table/iterator.cc
 
 ${OBJECTDIR}/src/leveldb/table/merger.o: src/leveldb/table/merger.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/table/merger.o src/leveldb/table/merger.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/table/merger.o src/leveldb/table/merger.cc
 
 ${OBJECTDIR}/src/leveldb/table/table.o: src/leveldb/table/table.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/table/table.o src/leveldb/table/table.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/table/table.o src/leveldb/table/table.cc
 
 ${OBJECTDIR}/src/leveldb/table/table_builder.o: src/leveldb/table/table_builder.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/table/table_builder.o src/leveldb/table/table_builder.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/table/table_builder.o src/leveldb/table/table_builder.cc
 
 ${OBJECTDIR}/src/leveldb/table/two_level_iterator.o: src/leveldb/table/two_level_iterator.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/table/two_level_iterator.o src/leveldb/table/two_level_iterator.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/table/two_level_iterator.o src/leveldb/table/two_level_iterator.cc
 
 ${OBJECTDIR}/src/leveldb/util/arena.o: src/leveldb/util/arena.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/util/arena.o src/leveldb/util/arena.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/util/arena.o src/leveldb/util/arena.cc
 
 ${OBJECTDIR}/src/leveldb/util/bloom.o: src/leveldb/util/bloom.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/util/bloom.o src/leveldb/util/bloom.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/util/bloom.o src/leveldb/util/bloom.cc
 
 ${OBJECTDIR}/src/leveldb/util/cache.o: src/leveldb/util/cache.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/util/cache.o src/leveldb/util/cache.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/util/cache.o src/leveldb/util/cache.cc
 
 ${OBJECTDIR}/src/leveldb/util/coding.o: src/leveldb/util/coding.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/util/coding.o src/leveldb/util/coding.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/util/coding.o src/leveldb/util/coding.cc
 
 ${OBJECTDIR}/src/leveldb/util/comparator.o: src/leveldb/util/comparator.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/util/comparator.o src/leveldb/util/comparator.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/util/comparator.o src/leveldb/util/comparator.cc
 
 ${OBJECTDIR}/src/leveldb/util/crc32c.o: src/leveldb/util/crc32c.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/util/crc32c.o src/leveldb/util/crc32c.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/util/crc32c.o src/leveldb/util/crc32c.cc
 
 ${OBJECTDIR}/src/leveldb/util/env.o: src/leveldb/util/env.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/util/env.o src/leveldb/util/env.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/util/env.o src/leveldb/util/env.cc
 
 ${OBJECTDIR}/src/leveldb/util/env_posix.o: src/leveldb/util/env_posix.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/util/env_posix.o src/leveldb/util/env_posix.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/util/env_posix.o src/leveldb/util/env_posix.cc
 
 ${OBJECTDIR}/src/leveldb/util/filter_policy.o: src/leveldb/util/filter_policy.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/util/filter_policy.o src/leveldb/util/filter_policy.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/util/filter_policy.o src/leveldb/util/filter_policy.cc
 
 ${OBJECTDIR}/src/leveldb/util/hash.o: src/leveldb/util/hash.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/util/hash.o src/leveldb/util/hash.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/util/hash.o src/leveldb/util/hash.cc
 
 ${OBJECTDIR}/src/leveldb/util/histogram.o: src/leveldb/util/histogram.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/util/histogram.o src/leveldb/util/histogram.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/util/histogram.o src/leveldb/util/histogram.cc
 
 ${OBJECTDIR}/src/leveldb/util/logging.o: src/leveldb/util/logging.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/util/logging.o src/leveldb/util/logging.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/util/logging.o src/leveldb/util/logging.cc
 
 ${OBJECTDIR}/src/leveldb/util/options.o: src/leveldb/util/options.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/util/options.o src/leveldb/util/options.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/util/options.o src/leveldb/util/options.cc
 
 ${OBJECTDIR}/src/leveldb/util/status.o: src/leveldb/util/status.cc
 	${MKDIR} -p ${OBJECTDIR}/src/leveldb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/util/status.o src/leveldb/util/status.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Isrc/leveldb -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/leveldb/util/status.o src/leveldb/util/status.cc
 
 ${OBJECTDIR}/src/libstatgrab/cpu_stats.o: src/libstatgrab/cpu_stats.c
 	${MKDIR} -p ${OBJECTDIR}/src/libstatgrab
@@ -873,1117 +873,1117 @@ ${OBJECTDIR}/src/libstatgrab/win32.o: src/libstatgrab/win32.c
 ${OBJECTDIR}/src/rocksdb/cache/clock_cache.o: src/rocksdb/cache/clock_cache.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/cache
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/cache/clock_cache.o src/rocksdb/cache/clock_cache.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/cache/clock_cache.o src/rocksdb/cache/clock_cache.cc
 
 ${OBJECTDIR}/src/rocksdb/cache/lru_cache.o: src/rocksdb/cache/lru_cache.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/cache
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/cache/lru_cache.o src/rocksdb/cache/lru_cache.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/cache/lru_cache.o src/rocksdb/cache/lru_cache.cc
 
 ${OBJECTDIR}/src/rocksdb/cache/sharded_cache.o: src/rocksdb/cache/sharded_cache.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/cache
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/cache/sharded_cache.o src/rocksdb/cache/sharded_cache.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/cache/sharded_cache.o src/rocksdb/cache/sharded_cache.cc
 
 ${OBJECTDIR}/src/rocksdb/db/builder.o: src/rocksdb/db/builder.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/builder.o src/rocksdb/db/builder.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/builder.o src/rocksdb/db/builder.cc
 
 ${OBJECTDIR}/src/rocksdb/db/c.o: src/rocksdb/db/c.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/c.o src/rocksdb/db/c.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/c.o src/rocksdb/db/c.cc
 
 ${OBJECTDIR}/src/rocksdb/db/column_family.o: src/rocksdb/db/column_family.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/column_family.o src/rocksdb/db/column_family.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/column_family.o src/rocksdb/db/column_family.cc
 
 ${OBJECTDIR}/src/rocksdb/db/compacted_db_impl.o: src/rocksdb/db/compacted_db_impl.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/compacted_db_impl.o src/rocksdb/db/compacted_db_impl.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/compacted_db_impl.o src/rocksdb/db/compacted_db_impl.cc
 
 ${OBJECTDIR}/src/rocksdb/db/compaction.o: src/rocksdb/db/compaction.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/compaction.o src/rocksdb/db/compaction.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/compaction.o src/rocksdb/db/compaction.cc
 
 ${OBJECTDIR}/src/rocksdb/db/compaction_iterator.o: src/rocksdb/db/compaction_iterator.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/compaction_iterator.o src/rocksdb/db/compaction_iterator.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/compaction_iterator.o src/rocksdb/db/compaction_iterator.cc
 
 ${OBJECTDIR}/src/rocksdb/db/compaction_job.o: src/rocksdb/db/compaction_job.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/compaction_job.o src/rocksdb/db/compaction_job.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/compaction_job.o src/rocksdb/db/compaction_job.cc
 
 ${OBJECTDIR}/src/rocksdb/db/compaction_picker.o: src/rocksdb/db/compaction_picker.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/compaction_picker.o src/rocksdb/db/compaction_picker.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/compaction_picker.o src/rocksdb/db/compaction_picker.cc
 
 ${OBJECTDIR}/src/rocksdb/db/compaction_picker_universal.o: src/rocksdb/db/compaction_picker_universal.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/compaction_picker_universal.o src/rocksdb/db/compaction_picker_universal.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/compaction_picker_universal.o src/rocksdb/db/compaction_picker_universal.cc
 
 ${OBJECTDIR}/src/rocksdb/db/convenience.o: src/rocksdb/db/convenience.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/convenience.o src/rocksdb/db/convenience.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/convenience.o src/rocksdb/db/convenience.cc
 
 ${OBJECTDIR}/src/rocksdb/db/db_filesnapshot.o: src/rocksdb/db/db_filesnapshot.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/db_filesnapshot.o src/rocksdb/db/db_filesnapshot.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/db_filesnapshot.o src/rocksdb/db/db_filesnapshot.cc
 
 ${OBJECTDIR}/src/rocksdb/db/db_impl.o: src/rocksdb/db/db_impl.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/db_impl.o src/rocksdb/db/db_impl.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/db_impl.o src/rocksdb/db/db_impl.cc
 
 ${OBJECTDIR}/src/rocksdb/db/db_impl_compaction_flush.o: src/rocksdb/db/db_impl_compaction_flush.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/db_impl_compaction_flush.o src/rocksdb/db/db_impl_compaction_flush.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/db_impl_compaction_flush.o src/rocksdb/db/db_impl_compaction_flush.cc
 
 ${OBJECTDIR}/src/rocksdb/db/db_impl_debug.o: src/rocksdb/db/db_impl_debug.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/db_impl_debug.o src/rocksdb/db/db_impl_debug.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/db_impl_debug.o src/rocksdb/db/db_impl_debug.cc
 
 ${OBJECTDIR}/src/rocksdb/db/db_impl_experimental.o: src/rocksdb/db/db_impl_experimental.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/db_impl_experimental.o src/rocksdb/db/db_impl_experimental.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/db_impl_experimental.o src/rocksdb/db/db_impl_experimental.cc
 
 ${OBJECTDIR}/src/rocksdb/db/db_impl_files.o: src/rocksdb/db/db_impl_files.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/db_impl_files.o src/rocksdb/db/db_impl_files.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/db_impl_files.o src/rocksdb/db/db_impl_files.cc
 
 ${OBJECTDIR}/src/rocksdb/db/db_impl_open.o: src/rocksdb/db/db_impl_open.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/db_impl_open.o src/rocksdb/db/db_impl_open.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/db_impl_open.o src/rocksdb/db/db_impl_open.cc
 
 ${OBJECTDIR}/src/rocksdb/db/db_impl_readonly.o: src/rocksdb/db/db_impl_readonly.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/db_impl_readonly.o src/rocksdb/db/db_impl_readonly.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/db_impl_readonly.o src/rocksdb/db/db_impl_readonly.cc
 
 ${OBJECTDIR}/src/rocksdb/db/db_impl_write.o: src/rocksdb/db/db_impl_write.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/db_impl_write.o src/rocksdb/db/db_impl_write.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/db_impl_write.o src/rocksdb/db/db_impl_write.cc
 
 ${OBJECTDIR}/src/rocksdb/db/db_info_dumper.o: src/rocksdb/db/db_info_dumper.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/db_info_dumper.o src/rocksdb/db/db_info_dumper.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/db_info_dumper.o src/rocksdb/db/db_info_dumper.cc
 
 ${OBJECTDIR}/src/rocksdb/db/db_iter.o: src/rocksdb/db/db_iter.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/db_iter.o src/rocksdb/db/db_iter.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/db_iter.o src/rocksdb/db/db_iter.cc
 
 ${OBJECTDIR}/src/rocksdb/db/dbformat.o: src/rocksdb/db/dbformat.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/dbformat.o src/rocksdb/db/dbformat.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/dbformat.o src/rocksdb/db/dbformat.cc
 
 ${OBJECTDIR}/src/rocksdb/db/event_helpers.o: src/rocksdb/db/event_helpers.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/event_helpers.o src/rocksdb/db/event_helpers.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/event_helpers.o src/rocksdb/db/event_helpers.cc
 
 ${OBJECTDIR}/src/rocksdb/db/experimental.o: src/rocksdb/db/experimental.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/experimental.o src/rocksdb/db/experimental.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/experimental.o src/rocksdb/db/experimental.cc
 
 ${OBJECTDIR}/src/rocksdb/db/external_sst_file_ingestion_job.o: src/rocksdb/db/external_sst_file_ingestion_job.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/external_sst_file_ingestion_job.o src/rocksdb/db/external_sst_file_ingestion_job.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/external_sst_file_ingestion_job.o src/rocksdb/db/external_sst_file_ingestion_job.cc
 
 ${OBJECTDIR}/src/rocksdb/db/file_indexer.o: src/rocksdb/db/file_indexer.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/file_indexer.o src/rocksdb/db/file_indexer.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/file_indexer.o src/rocksdb/db/file_indexer.cc
 
 ${OBJECTDIR}/src/rocksdb/db/flush_job.o: src/rocksdb/db/flush_job.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/flush_job.o src/rocksdb/db/flush_job.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/flush_job.o src/rocksdb/db/flush_job.cc
 
 ${OBJECTDIR}/src/rocksdb/db/flush_scheduler.o: src/rocksdb/db/flush_scheduler.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/flush_scheduler.o src/rocksdb/db/flush_scheduler.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/flush_scheduler.o src/rocksdb/db/flush_scheduler.cc
 
 ${OBJECTDIR}/src/rocksdb/db/forward_iterator.o: src/rocksdb/db/forward_iterator.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/forward_iterator.o src/rocksdb/db/forward_iterator.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/forward_iterator.o src/rocksdb/db/forward_iterator.cc
 
 ${OBJECTDIR}/src/rocksdb/db/forward_iterator_bench.o: src/rocksdb/db/forward_iterator_bench.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/forward_iterator_bench.o src/rocksdb/db/forward_iterator_bench.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/forward_iterator_bench.o src/rocksdb/db/forward_iterator_bench.cc
 
 ${OBJECTDIR}/src/rocksdb/db/internal_stats.o: src/rocksdb/db/internal_stats.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/internal_stats.o src/rocksdb/db/internal_stats.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/internal_stats.o src/rocksdb/db/internal_stats.cc
 
 ${OBJECTDIR}/src/rocksdb/db/log_reader.o: src/rocksdb/db/log_reader.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/log_reader.o src/rocksdb/db/log_reader.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/log_reader.o src/rocksdb/db/log_reader.cc
 
 ${OBJECTDIR}/src/rocksdb/db/log_writer.o: src/rocksdb/db/log_writer.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/log_writer.o src/rocksdb/db/log_writer.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/log_writer.o src/rocksdb/db/log_writer.cc
 
 ${OBJECTDIR}/src/rocksdb/db/malloc_stats.o: src/rocksdb/db/malloc_stats.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/malloc_stats.o src/rocksdb/db/malloc_stats.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/malloc_stats.o src/rocksdb/db/malloc_stats.cc
 
 ${OBJECTDIR}/src/rocksdb/db/managed_iterator.o: src/rocksdb/db/managed_iterator.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/managed_iterator.o src/rocksdb/db/managed_iterator.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/managed_iterator.o src/rocksdb/db/managed_iterator.cc
 
 ${OBJECTDIR}/src/rocksdb/db/memtable.o: src/rocksdb/db/memtable.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/memtable.o src/rocksdb/db/memtable.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/memtable.o src/rocksdb/db/memtable.cc
 
 ${OBJECTDIR}/src/rocksdb/db/memtable_list.o: src/rocksdb/db/memtable_list.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/memtable_list.o src/rocksdb/db/memtable_list.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/memtable_list.o src/rocksdb/db/memtable_list.cc
 
 ${OBJECTDIR}/src/rocksdb/db/merge_helper.o: src/rocksdb/db/merge_helper.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/merge_helper.o src/rocksdb/db/merge_helper.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/merge_helper.o src/rocksdb/db/merge_helper.cc
 
 ${OBJECTDIR}/src/rocksdb/db/merge_operator.o: src/rocksdb/db/merge_operator.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/merge_operator.o src/rocksdb/db/merge_operator.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/merge_operator.o src/rocksdb/db/merge_operator.cc
 
 ${OBJECTDIR}/src/rocksdb/db/range_del_aggregator.o: src/rocksdb/db/range_del_aggregator.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/range_del_aggregator.o src/rocksdb/db/range_del_aggregator.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/range_del_aggregator.o src/rocksdb/db/range_del_aggregator.cc
 
 ${OBJECTDIR}/src/rocksdb/db/repair.o: src/rocksdb/db/repair.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/repair.o src/rocksdb/db/repair.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/repair.o src/rocksdb/db/repair.cc
 
 ${OBJECTDIR}/src/rocksdb/db/snapshot_impl.o: src/rocksdb/db/snapshot_impl.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/snapshot_impl.o src/rocksdb/db/snapshot_impl.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/snapshot_impl.o src/rocksdb/db/snapshot_impl.cc
 
 ${OBJECTDIR}/src/rocksdb/db/table_cache.o: src/rocksdb/db/table_cache.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/table_cache.o src/rocksdb/db/table_cache.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/table_cache.o src/rocksdb/db/table_cache.cc
 
 ${OBJECTDIR}/src/rocksdb/db/table_properties_collector.o: src/rocksdb/db/table_properties_collector.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/table_properties_collector.o src/rocksdb/db/table_properties_collector.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/table_properties_collector.o src/rocksdb/db/table_properties_collector.cc
 
 ${OBJECTDIR}/src/rocksdb/db/transaction_log_impl.o: src/rocksdb/db/transaction_log_impl.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/transaction_log_impl.o src/rocksdb/db/transaction_log_impl.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/transaction_log_impl.o src/rocksdb/db/transaction_log_impl.cc
 
 ${OBJECTDIR}/src/rocksdb/db/version_builder.o: src/rocksdb/db/version_builder.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/version_builder.o src/rocksdb/db/version_builder.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/version_builder.o src/rocksdb/db/version_builder.cc
 
 ${OBJECTDIR}/src/rocksdb/db/version_edit.o: src/rocksdb/db/version_edit.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/version_edit.o src/rocksdb/db/version_edit.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/version_edit.o src/rocksdb/db/version_edit.cc
 
 ${OBJECTDIR}/src/rocksdb/db/version_set.o: src/rocksdb/db/version_set.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/version_set.o src/rocksdb/db/version_set.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/version_set.o src/rocksdb/db/version_set.cc
 
 ${OBJECTDIR}/src/rocksdb/db/wal_manager.o: src/rocksdb/db/wal_manager.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/wal_manager.o src/rocksdb/db/wal_manager.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/wal_manager.o src/rocksdb/db/wal_manager.cc
 
 ${OBJECTDIR}/src/rocksdb/db/write_batch.o: src/rocksdb/db/write_batch.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/write_batch.o src/rocksdb/db/write_batch.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/write_batch.o src/rocksdb/db/write_batch.cc
 
 ${OBJECTDIR}/src/rocksdb/db/write_batch_base.o: src/rocksdb/db/write_batch_base.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/write_batch_base.o src/rocksdb/db/write_batch_base.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/write_batch_base.o src/rocksdb/db/write_batch_base.cc
 
 ${OBJECTDIR}/src/rocksdb/db/write_controller.o: src/rocksdb/db/write_controller.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/write_controller.o src/rocksdb/db/write_controller.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/write_controller.o src/rocksdb/db/write_controller.cc
 
 ${OBJECTDIR}/src/rocksdb/db/write_thread.o: src/rocksdb/db/write_thread.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/write_thread.o src/rocksdb/db/write_thread.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/db/write_thread.o src/rocksdb/db/write_thread.cc
 
 ${OBJECTDIR}/src/rocksdb/env/env.o: src/rocksdb/env/env.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/env
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/env/env.o src/rocksdb/env/env.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/env/env.o src/rocksdb/env/env.cc
 
 ${OBJECTDIR}/src/rocksdb/env/env_chroot.o: src/rocksdb/env/env_chroot.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/env
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/env/env_chroot.o src/rocksdb/env/env_chroot.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/env/env_chroot.o src/rocksdb/env/env_chroot.cc
 
 ${OBJECTDIR}/src/rocksdb/env/env_encryption.o: src/rocksdb/env/env_encryption.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/env
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/env/env_encryption.o src/rocksdb/env/env_encryption.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/env/env_encryption.o src/rocksdb/env/env_encryption.cc
 
 ${OBJECTDIR}/src/rocksdb/env/env_hdfs.o: src/rocksdb/env/env_hdfs.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/env
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/env/env_hdfs.o src/rocksdb/env/env_hdfs.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/env/env_hdfs.o src/rocksdb/env/env_hdfs.cc
 
 ${OBJECTDIR}/src/rocksdb/env/env_posix.o: src/rocksdb/env/env_posix.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/env
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/env/env_posix.o src/rocksdb/env/env_posix.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/env/env_posix.o src/rocksdb/env/env_posix.cc
 
 ${OBJECTDIR}/src/rocksdb/env/io_posix.o: src/rocksdb/env/io_posix.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/env
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/env/io_posix.o src/rocksdb/env/io_posix.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/env/io_posix.o src/rocksdb/env/io_posix.cc
 
 ${OBJECTDIR}/src/rocksdb/env/mock_env.o: src/rocksdb/env/mock_env.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/env
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/env/mock_env.o src/rocksdb/env/mock_env.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/env/mock_env.o src/rocksdb/env/mock_env.cc
 
 ${OBJECTDIR}/src/rocksdb/memtable/alloc_tracker.o: src/rocksdb/memtable/alloc_tracker.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/memtable
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/memtable/alloc_tracker.o src/rocksdb/memtable/alloc_tracker.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/memtable/alloc_tracker.o src/rocksdb/memtable/alloc_tracker.cc
 
 ${OBJECTDIR}/src/rocksdb/memtable/hash_cuckoo_rep.o: src/rocksdb/memtable/hash_cuckoo_rep.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/memtable
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/memtable/hash_cuckoo_rep.o src/rocksdb/memtable/hash_cuckoo_rep.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/memtable/hash_cuckoo_rep.o src/rocksdb/memtable/hash_cuckoo_rep.cc
 
 ${OBJECTDIR}/src/rocksdb/memtable/hash_linklist_rep.o: src/rocksdb/memtable/hash_linklist_rep.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/memtable
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/memtable/hash_linklist_rep.o src/rocksdb/memtable/hash_linklist_rep.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/memtable/hash_linklist_rep.o src/rocksdb/memtable/hash_linklist_rep.cc
 
 ${OBJECTDIR}/src/rocksdb/memtable/hash_skiplist_rep.o: src/rocksdb/memtable/hash_skiplist_rep.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/memtable
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/memtable/hash_skiplist_rep.o src/rocksdb/memtable/hash_skiplist_rep.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/memtable/hash_skiplist_rep.o src/rocksdb/memtable/hash_skiplist_rep.cc
 
 ${OBJECTDIR}/src/rocksdb/memtable/memtablerep_bench.o: src/rocksdb/memtable/memtablerep_bench.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/memtable
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/memtable/memtablerep_bench.o src/rocksdb/memtable/memtablerep_bench.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/memtable/memtablerep_bench.o src/rocksdb/memtable/memtablerep_bench.cc
 
 ${OBJECTDIR}/src/rocksdb/memtable/skiplistrep.o: src/rocksdb/memtable/skiplistrep.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/memtable
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/memtable/skiplistrep.o src/rocksdb/memtable/skiplistrep.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/memtable/skiplistrep.o src/rocksdb/memtable/skiplistrep.cc
 
 ${OBJECTDIR}/src/rocksdb/memtable/vectorrep.o: src/rocksdb/memtable/vectorrep.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/memtable
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/memtable/vectorrep.o src/rocksdb/memtable/vectorrep.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/memtable/vectorrep.o src/rocksdb/memtable/vectorrep.cc
 
 ${OBJECTDIR}/src/rocksdb/memtable/write_buffer_manager.o: src/rocksdb/memtable/write_buffer_manager.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/memtable
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/memtable/write_buffer_manager.o src/rocksdb/memtable/write_buffer_manager.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/memtable/write_buffer_manager.o src/rocksdb/memtable/write_buffer_manager.cc
 
 ${OBJECTDIR}/src/rocksdb/memtable/write_buffer_manager_test.o: src/rocksdb/memtable/write_buffer_manager_test.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/memtable
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/memtable/write_buffer_manager_test.o src/rocksdb/memtable/write_buffer_manager_test.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/memtable/write_buffer_manager_test.o src/rocksdb/memtable/write_buffer_manager_test.cc
 
 ${OBJECTDIR}/src/rocksdb/monitoring/histogram.o: src/rocksdb/monitoring/histogram.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/monitoring
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/monitoring/histogram.o src/rocksdb/monitoring/histogram.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/monitoring/histogram.o src/rocksdb/monitoring/histogram.cc
 
 ${OBJECTDIR}/src/rocksdb/monitoring/histogram_windowing.o: src/rocksdb/monitoring/histogram_windowing.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/monitoring
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/monitoring/histogram_windowing.o src/rocksdb/monitoring/histogram_windowing.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/monitoring/histogram_windowing.o src/rocksdb/monitoring/histogram_windowing.cc
 
 ${OBJECTDIR}/src/rocksdb/monitoring/instrumented_mutex.o: src/rocksdb/monitoring/instrumented_mutex.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/monitoring
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/monitoring/instrumented_mutex.o src/rocksdb/monitoring/instrumented_mutex.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/monitoring/instrumented_mutex.o src/rocksdb/monitoring/instrumented_mutex.cc
 
 ${OBJECTDIR}/src/rocksdb/monitoring/iostats_context.o: src/rocksdb/monitoring/iostats_context.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/monitoring
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/monitoring/iostats_context.o src/rocksdb/monitoring/iostats_context.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/monitoring/iostats_context.o src/rocksdb/monitoring/iostats_context.cc
 
 ${OBJECTDIR}/src/rocksdb/monitoring/perf_context.o: src/rocksdb/monitoring/perf_context.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/monitoring
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/monitoring/perf_context.o src/rocksdb/monitoring/perf_context.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/monitoring/perf_context.o src/rocksdb/monitoring/perf_context.cc
 
 ${OBJECTDIR}/src/rocksdb/monitoring/perf_level.o: src/rocksdb/monitoring/perf_level.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/monitoring
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/monitoring/perf_level.o src/rocksdb/monitoring/perf_level.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/monitoring/perf_level.o src/rocksdb/monitoring/perf_level.cc
 
 ${OBJECTDIR}/src/rocksdb/monitoring/statistics.o: src/rocksdb/monitoring/statistics.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/monitoring
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/monitoring/statistics.o src/rocksdb/monitoring/statistics.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/monitoring/statistics.o src/rocksdb/monitoring/statistics.cc
 
 ${OBJECTDIR}/src/rocksdb/monitoring/thread_status_impl.o: src/rocksdb/monitoring/thread_status_impl.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/monitoring
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/monitoring/thread_status_impl.o src/rocksdb/monitoring/thread_status_impl.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/monitoring/thread_status_impl.o src/rocksdb/monitoring/thread_status_impl.cc
 
 ${OBJECTDIR}/src/rocksdb/monitoring/thread_status_updater.o: src/rocksdb/monitoring/thread_status_updater.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/monitoring
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/monitoring/thread_status_updater.o src/rocksdb/monitoring/thread_status_updater.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/monitoring/thread_status_updater.o src/rocksdb/monitoring/thread_status_updater.cc
 
 ${OBJECTDIR}/src/rocksdb/monitoring/thread_status_updater_debug.o: src/rocksdb/monitoring/thread_status_updater_debug.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/monitoring
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/monitoring/thread_status_updater_debug.o src/rocksdb/monitoring/thread_status_updater_debug.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/monitoring/thread_status_updater_debug.o src/rocksdb/monitoring/thread_status_updater_debug.cc
 
 ${OBJECTDIR}/src/rocksdb/monitoring/thread_status_util.o: src/rocksdb/monitoring/thread_status_util.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/monitoring
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/monitoring/thread_status_util.o src/rocksdb/monitoring/thread_status_util.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/monitoring/thread_status_util.o src/rocksdb/monitoring/thread_status_util.cc
 
 ${OBJECTDIR}/src/rocksdb/monitoring/thread_status_util_debug.o: src/rocksdb/monitoring/thread_status_util_debug.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/monitoring
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/monitoring/thread_status_util_debug.o src/rocksdb/monitoring/thread_status_util_debug.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/monitoring/thread_status_util_debug.o src/rocksdb/monitoring/thread_status_util_debug.cc
 
 ${OBJECTDIR}/src/rocksdb/options/cf_options.o: src/rocksdb/options/cf_options.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/options
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/options/cf_options.o src/rocksdb/options/cf_options.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/options/cf_options.o src/rocksdb/options/cf_options.cc
 
 ${OBJECTDIR}/src/rocksdb/options/db_options.o: src/rocksdb/options/db_options.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/options
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/options/db_options.o src/rocksdb/options/db_options.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/options/db_options.o src/rocksdb/options/db_options.cc
 
 ${OBJECTDIR}/src/rocksdb/options/options.o: src/rocksdb/options/options.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/options
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/options/options.o src/rocksdb/options/options.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/options/options.o src/rocksdb/options/options.cc
 
 ${OBJECTDIR}/src/rocksdb/options/options_helper.o: src/rocksdb/options/options_helper.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/options
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/options/options_helper.o src/rocksdb/options/options_helper.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/options/options_helper.o src/rocksdb/options/options_helper.cc
 
 ${OBJECTDIR}/src/rocksdb/options/options_parser.o: src/rocksdb/options/options_parser.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/options
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/options/options_parser.o src/rocksdb/options/options_parser.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/options/options_parser.o src/rocksdb/options/options_parser.cc
 
 ${OBJECTDIR}/src/rocksdb/options/options_sanity_check.o: src/rocksdb/options/options_sanity_check.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/options
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/options/options_sanity_check.o src/rocksdb/options/options_sanity_check.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/options/options_sanity_check.o src/rocksdb/options/options_sanity_check.cc
 
 ${OBJECTDIR}/src/rocksdb/options/options_settable_test.o: src/rocksdb/options/options_settable_test.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/options
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/options/options_settable_test.o src/rocksdb/options/options_settable_test.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/options/options_settable_test.o src/rocksdb/options/options_settable_test.cc
 
 ${OBJECTDIR}/src/rocksdb/port/port_posix.o: src/rocksdb/port/port_posix.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/port
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/port/port_posix.o src/rocksdb/port/port_posix.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/port/port_posix.o src/rocksdb/port/port_posix.cc
 
 ${OBJECTDIR}/src/rocksdb/port/stack_trace.o: src/rocksdb/port/stack_trace.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/port
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/port/stack_trace.o src/rocksdb/port/stack_trace.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/port/stack_trace.o src/rocksdb/port/stack_trace.cc
 
 ${OBJECTDIR}/src/rocksdb/table/adaptive_table_factory.o: src/rocksdb/table/adaptive_table_factory.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/adaptive_table_factory.o src/rocksdb/table/adaptive_table_factory.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/adaptive_table_factory.o src/rocksdb/table/adaptive_table_factory.cc
 
 ${OBJECTDIR}/src/rocksdb/table/block.o: src/rocksdb/table/block.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/block.o src/rocksdb/table/block.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/block.o src/rocksdb/table/block.cc
 
 ${OBJECTDIR}/src/rocksdb/table/block_based_filter_block.o: src/rocksdb/table/block_based_filter_block.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/block_based_filter_block.o src/rocksdb/table/block_based_filter_block.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/block_based_filter_block.o src/rocksdb/table/block_based_filter_block.cc
 
 ${OBJECTDIR}/src/rocksdb/table/block_based_table_builder.o: src/rocksdb/table/block_based_table_builder.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/block_based_table_builder.o src/rocksdb/table/block_based_table_builder.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/block_based_table_builder.o src/rocksdb/table/block_based_table_builder.cc
 
 ${OBJECTDIR}/src/rocksdb/table/block_based_table_factory.o: src/rocksdb/table/block_based_table_factory.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/block_based_table_factory.o src/rocksdb/table/block_based_table_factory.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/block_based_table_factory.o src/rocksdb/table/block_based_table_factory.cc
 
 ${OBJECTDIR}/src/rocksdb/table/block_based_table_reader.o: src/rocksdb/table/block_based_table_reader.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/block_based_table_reader.o src/rocksdb/table/block_based_table_reader.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/block_based_table_reader.o src/rocksdb/table/block_based_table_reader.cc
 
 ${OBJECTDIR}/src/rocksdb/table/block_builder.o: src/rocksdb/table/block_builder.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/block_builder.o src/rocksdb/table/block_builder.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/block_builder.o src/rocksdb/table/block_builder.cc
 
 ${OBJECTDIR}/src/rocksdb/table/block_prefix_index.o: src/rocksdb/table/block_prefix_index.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/block_prefix_index.o src/rocksdb/table/block_prefix_index.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/block_prefix_index.o src/rocksdb/table/block_prefix_index.cc
 
 ${OBJECTDIR}/src/rocksdb/table/bloom_block.o: src/rocksdb/table/bloom_block.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/bloom_block.o src/rocksdb/table/bloom_block.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/bloom_block.o src/rocksdb/table/bloom_block.cc
 
 ${OBJECTDIR}/src/rocksdb/table/cuckoo_table_builder.o: src/rocksdb/table/cuckoo_table_builder.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/cuckoo_table_builder.o src/rocksdb/table/cuckoo_table_builder.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/cuckoo_table_builder.o src/rocksdb/table/cuckoo_table_builder.cc
 
 ${OBJECTDIR}/src/rocksdb/table/cuckoo_table_factory.o: src/rocksdb/table/cuckoo_table_factory.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/cuckoo_table_factory.o src/rocksdb/table/cuckoo_table_factory.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/cuckoo_table_factory.o src/rocksdb/table/cuckoo_table_factory.cc
 
 ${OBJECTDIR}/src/rocksdb/table/cuckoo_table_reader.o: src/rocksdb/table/cuckoo_table_reader.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/cuckoo_table_reader.o src/rocksdb/table/cuckoo_table_reader.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/cuckoo_table_reader.o src/rocksdb/table/cuckoo_table_reader.cc
 
 ${OBJECTDIR}/src/rocksdb/table/flush_block_policy.o: src/rocksdb/table/flush_block_policy.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/flush_block_policy.o src/rocksdb/table/flush_block_policy.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/flush_block_policy.o src/rocksdb/table/flush_block_policy.cc
 
 ${OBJECTDIR}/src/rocksdb/table/format.o: src/rocksdb/table/format.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/format.o src/rocksdb/table/format.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/format.o src/rocksdb/table/format.cc
 
 ${OBJECTDIR}/src/rocksdb/table/full_filter_block.o: src/rocksdb/table/full_filter_block.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/full_filter_block.o src/rocksdb/table/full_filter_block.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/full_filter_block.o src/rocksdb/table/full_filter_block.cc
 
 ${OBJECTDIR}/src/rocksdb/table/full_filter_block_test.o: src/rocksdb/table/full_filter_block_test.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/full_filter_block_test.o src/rocksdb/table/full_filter_block_test.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/full_filter_block_test.o src/rocksdb/table/full_filter_block_test.cc
 
 ${OBJECTDIR}/src/rocksdb/table/get_context.o: src/rocksdb/table/get_context.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/get_context.o src/rocksdb/table/get_context.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/get_context.o src/rocksdb/table/get_context.cc
 
 ${OBJECTDIR}/src/rocksdb/table/index_builder.o: src/rocksdb/table/index_builder.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/index_builder.o src/rocksdb/table/index_builder.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/index_builder.o src/rocksdb/table/index_builder.cc
 
 ${OBJECTDIR}/src/rocksdb/table/iterator.o: src/rocksdb/table/iterator.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/iterator.o src/rocksdb/table/iterator.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/iterator.o src/rocksdb/table/iterator.cc
 
 ${OBJECTDIR}/src/rocksdb/table/merging_iterator.o: src/rocksdb/table/merging_iterator.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/merging_iterator.o src/rocksdb/table/merging_iterator.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/merging_iterator.o src/rocksdb/table/merging_iterator.cc
 
 ${OBJECTDIR}/src/rocksdb/table/meta_blocks.o: src/rocksdb/table/meta_blocks.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/meta_blocks.o src/rocksdb/table/meta_blocks.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/meta_blocks.o src/rocksdb/table/meta_blocks.cc
 
 ${OBJECTDIR}/src/rocksdb/table/mock_table.o: src/rocksdb/table/mock_table.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/mock_table.o src/rocksdb/table/mock_table.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/mock_table.o src/rocksdb/table/mock_table.cc
 
 ${OBJECTDIR}/src/rocksdb/table/partitioned_filter_block.o: src/rocksdb/table/partitioned_filter_block.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/partitioned_filter_block.o src/rocksdb/table/partitioned_filter_block.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/partitioned_filter_block.o src/rocksdb/table/partitioned_filter_block.cc
 
 ${OBJECTDIR}/src/rocksdb/table/persistent_cache_helper.o: src/rocksdb/table/persistent_cache_helper.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/persistent_cache_helper.o src/rocksdb/table/persistent_cache_helper.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/persistent_cache_helper.o src/rocksdb/table/persistent_cache_helper.cc
 
 ${OBJECTDIR}/src/rocksdb/table/plain_table_builder.o: src/rocksdb/table/plain_table_builder.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/plain_table_builder.o src/rocksdb/table/plain_table_builder.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/plain_table_builder.o src/rocksdb/table/plain_table_builder.cc
 
 ${OBJECTDIR}/src/rocksdb/table/plain_table_factory.o: src/rocksdb/table/plain_table_factory.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/plain_table_factory.o src/rocksdb/table/plain_table_factory.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/plain_table_factory.o src/rocksdb/table/plain_table_factory.cc
 
 ${OBJECTDIR}/src/rocksdb/table/plain_table_index.o: src/rocksdb/table/plain_table_index.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/plain_table_index.o src/rocksdb/table/plain_table_index.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/plain_table_index.o src/rocksdb/table/plain_table_index.cc
 
 ${OBJECTDIR}/src/rocksdb/table/plain_table_key_coding.o: src/rocksdb/table/plain_table_key_coding.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/plain_table_key_coding.o src/rocksdb/table/plain_table_key_coding.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/plain_table_key_coding.o src/rocksdb/table/plain_table_key_coding.cc
 
 ${OBJECTDIR}/src/rocksdb/table/plain_table_reader.o: src/rocksdb/table/plain_table_reader.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/plain_table_reader.o src/rocksdb/table/plain_table_reader.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/plain_table_reader.o src/rocksdb/table/plain_table_reader.cc
 
 ${OBJECTDIR}/src/rocksdb/table/sst_file_writer.o: src/rocksdb/table/sst_file_writer.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/sst_file_writer.o src/rocksdb/table/sst_file_writer.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/sst_file_writer.o src/rocksdb/table/sst_file_writer.cc
 
 ${OBJECTDIR}/src/rocksdb/table/table_properties.o: src/rocksdb/table/table_properties.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/table_properties.o src/rocksdb/table/table_properties.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/table_properties.o src/rocksdb/table/table_properties.cc
 
 ${OBJECTDIR}/src/rocksdb/table/table_reader_bench.o: src/rocksdb/table/table_reader_bench.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/table_reader_bench.o src/rocksdb/table/table_reader_bench.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/table_reader_bench.o src/rocksdb/table/table_reader_bench.cc
 
 ${OBJECTDIR}/src/rocksdb/table/two_level_iterator.o: src/rocksdb/table/two_level_iterator.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/table
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/two_level_iterator.o src/rocksdb/table/two_level_iterator.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/two_level_iterator.o src/rocksdb/table/two_level_iterator.cc
 
 ${OBJECTDIR}/src/rocksdb/tools/dump/db_dump_tool.o: src/rocksdb/tools/dump/db_dump_tool.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/tools/dump
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/tools/dump/db_dump_tool.o src/rocksdb/tools/dump/db_dump_tool.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/tools/dump/db_dump_tool.o src/rocksdb/tools/dump/db_dump_tool.cc
 
 ${OBJECTDIR}/src/rocksdb/util/arena.o: src/rocksdb/util/arena.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/arena.o src/rocksdb/util/arena.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/arena.o src/rocksdb/util/arena.cc
 
 ${OBJECTDIR}/src/rocksdb/util/auto_roll_logger.o: src/rocksdb/util/auto_roll_logger.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/auto_roll_logger.o src/rocksdb/util/auto_roll_logger.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/auto_roll_logger.o src/rocksdb/util/auto_roll_logger.cc
 
 ${OBJECTDIR}/src/rocksdb/util/bloom.o: src/rocksdb/util/bloom.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/bloom.o src/rocksdb/util/bloom.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/bloom.o src/rocksdb/util/bloom.cc
 
 ${OBJECTDIR}/src/rocksdb/util/build_version.o: src/rocksdb/util/build_version.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/build_version.o src/rocksdb/util/build_version.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/build_version.o src/rocksdb/util/build_version.cc
 
 ${OBJECTDIR}/src/rocksdb/util/coding.o: src/rocksdb/util/coding.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/coding.o src/rocksdb/util/coding.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/coding.o src/rocksdb/util/coding.cc
 
 ${OBJECTDIR}/src/rocksdb/util/compaction_job_stats_impl.o: src/rocksdb/util/compaction_job_stats_impl.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/compaction_job_stats_impl.o src/rocksdb/util/compaction_job_stats_impl.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/compaction_job_stats_impl.o src/rocksdb/util/compaction_job_stats_impl.cc
 
 ${OBJECTDIR}/src/rocksdb/util/comparator.o: src/rocksdb/util/comparator.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/comparator.o src/rocksdb/util/comparator.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/comparator.o src/rocksdb/util/comparator.cc
 
 ${OBJECTDIR}/src/rocksdb/util/concurrent_arena.o: src/rocksdb/util/concurrent_arena.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/concurrent_arena.o src/rocksdb/util/concurrent_arena.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/concurrent_arena.o src/rocksdb/util/concurrent_arena.cc
 
 ${OBJECTDIR}/src/rocksdb/util/crc32c.o: src/rocksdb/util/crc32c.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/crc32c.o src/rocksdb/util/crc32c.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/crc32c.o src/rocksdb/util/crc32c.cc
 
 ${OBJECTDIR}/src/rocksdb/util/delete_scheduler.o: src/rocksdb/util/delete_scheduler.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/delete_scheduler.o src/rocksdb/util/delete_scheduler.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/delete_scheduler.o src/rocksdb/util/delete_scheduler.cc
 
 ${OBJECTDIR}/src/rocksdb/util/dynamic_bloom.o: src/rocksdb/util/dynamic_bloom.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/dynamic_bloom.o src/rocksdb/util/dynamic_bloom.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/dynamic_bloom.o src/rocksdb/util/dynamic_bloom.cc
 
 ${OBJECTDIR}/src/rocksdb/util/event_logger.o: src/rocksdb/util/event_logger.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/event_logger.o src/rocksdb/util/event_logger.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/event_logger.o src/rocksdb/util/event_logger.cc
 
 ${OBJECTDIR}/src/rocksdb/util/fault_injection_test_env.o: src/rocksdb/util/fault_injection_test_env.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/fault_injection_test_env.o src/rocksdb/util/fault_injection_test_env.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/fault_injection_test_env.o src/rocksdb/util/fault_injection_test_env.cc
 
 ${OBJECTDIR}/src/rocksdb/util/file_reader_writer.o: src/rocksdb/util/file_reader_writer.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/file_reader_writer.o src/rocksdb/util/file_reader_writer.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/file_reader_writer.o src/rocksdb/util/file_reader_writer.cc
 
 ${OBJECTDIR}/src/rocksdb/util/file_util.o: src/rocksdb/util/file_util.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/file_util.o src/rocksdb/util/file_util.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/file_util.o src/rocksdb/util/file_util.cc
 
 ${OBJECTDIR}/src/rocksdb/util/filename.o: src/rocksdb/util/filename.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/filename.o src/rocksdb/util/filename.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/filename.o src/rocksdb/util/filename.cc
 
 ${OBJECTDIR}/src/rocksdb/util/filter_policy.o: src/rocksdb/util/filter_policy.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/filter_policy.o src/rocksdb/util/filter_policy.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/filter_policy.o src/rocksdb/util/filter_policy.cc
 
 ${OBJECTDIR}/src/rocksdb/util/hash.o: src/rocksdb/util/hash.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/hash.o src/rocksdb/util/hash.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/hash.o src/rocksdb/util/hash.cc
 
 ${OBJECTDIR}/src/rocksdb/util/log_buffer.o: src/rocksdb/util/log_buffer.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/log_buffer.o src/rocksdb/util/log_buffer.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/log_buffer.o src/rocksdb/util/log_buffer.cc
 
 ${OBJECTDIR}/src/rocksdb/util/log_write_bench.o: src/rocksdb/util/log_write_bench.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/log_write_bench.o src/rocksdb/util/log_write_bench.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/log_write_bench.o src/rocksdb/util/log_write_bench.cc
 
 ${OBJECTDIR}/src/rocksdb/util/murmurhash.o: src/rocksdb/util/murmurhash.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/murmurhash.o src/rocksdb/util/murmurhash.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/murmurhash.o src/rocksdb/util/murmurhash.cc
 
 ${OBJECTDIR}/src/rocksdb/util/random.o: src/rocksdb/util/random.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/random.o src/rocksdb/util/random.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/random.o src/rocksdb/util/random.cc
 
 ${OBJECTDIR}/src/rocksdb/util/rate_limiter.o: src/rocksdb/util/rate_limiter.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/rate_limiter.o src/rocksdb/util/rate_limiter.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/rate_limiter.o src/rocksdb/util/rate_limiter.cc
 
 ${OBJECTDIR}/src/rocksdb/util/slice.o: src/rocksdb/util/slice.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/slice.o src/rocksdb/util/slice.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/slice.o src/rocksdb/util/slice.cc
 
 ${OBJECTDIR}/src/rocksdb/util/sst_file_manager_impl.o: src/rocksdb/util/sst_file_manager_impl.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/sst_file_manager_impl.o src/rocksdb/util/sst_file_manager_impl.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/sst_file_manager_impl.o src/rocksdb/util/sst_file_manager_impl.cc
 
 ${OBJECTDIR}/src/rocksdb/util/status.o: src/rocksdb/util/status.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/status.o src/rocksdb/util/status.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/status.o src/rocksdb/util/status.cc
 
 ${OBJECTDIR}/src/rocksdb/util/status_message.o: src/rocksdb/util/status_message.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/status_message.o src/rocksdb/util/status_message.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/status_message.o src/rocksdb/util/status_message.cc
 
 ${OBJECTDIR}/src/rocksdb/util/string_util.o: src/rocksdb/util/string_util.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/string_util.o src/rocksdb/util/string_util.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/string_util.o src/rocksdb/util/string_util.cc
 
 ${OBJECTDIR}/src/rocksdb/util/sync_point.o: src/rocksdb/util/sync_point.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/sync_point.o src/rocksdb/util/sync_point.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/sync_point.o src/rocksdb/util/sync_point.cc
 
 ${OBJECTDIR}/src/rocksdb/util/testharness.o: src/rocksdb/util/testharness.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/testharness.o src/rocksdb/util/testharness.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/testharness.o src/rocksdb/util/testharness.cc
 
 ${OBJECTDIR}/src/rocksdb/util/testutil.o: src/rocksdb/util/testutil.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/testutil.o src/rocksdb/util/testutil.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/testutil.o src/rocksdb/util/testutil.cc
 
 ${OBJECTDIR}/src/rocksdb/util/thread_local.o: src/rocksdb/util/thread_local.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/thread_local.o src/rocksdb/util/thread_local.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/thread_local.o src/rocksdb/util/thread_local.cc
 
 ${OBJECTDIR}/src/rocksdb/util/threadpool_imp.o: src/rocksdb/util/threadpool_imp.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/threadpool_imp.o src/rocksdb/util/threadpool_imp.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/threadpool_imp.o src/rocksdb/util/threadpool_imp.cc
 
 ${OBJECTDIR}/src/rocksdb/util/transaction_test_util.o: src/rocksdb/util/transaction_test_util.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/transaction_test_util.o src/rocksdb/util/transaction_test_util.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/transaction_test_util.o src/rocksdb/util/transaction_test_util.cc
 
 ${OBJECTDIR}/src/rocksdb/util/xxhash.o: src/rocksdb/util/xxhash.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/xxhash.o src/rocksdb/util/xxhash.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/xxhash.o src/rocksdb/util/xxhash.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/backupable/backupable_db.o: src/rocksdb/utilities/backupable/backupable_db.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/backupable
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/backupable/backupable_db.o src/rocksdb/utilities/backupable/backupable_db.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/backupable/backupable_db.o src/rocksdb/utilities/backupable/backupable_db.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/blob_db/blob_db.o: src/rocksdb/utilities/blob_db/blob_db.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/blob_db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/blob_db/blob_db.o src/rocksdb/utilities/blob_db/blob_db.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/blob_db/blob_db.o src/rocksdb/utilities/blob_db/blob_db.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/blob_db/blob_db_impl.o: src/rocksdb/utilities/blob_db/blob_db_impl.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/blob_db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/blob_db/blob_db_impl.o src/rocksdb/utilities/blob_db/blob_db_impl.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/blob_db/blob_db_impl.o src/rocksdb/utilities/blob_db/blob_db_impl.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/blob_db/blob_dump_tool.o: src/rocksdb/utilities/blob_db/blob_dump_tool.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/blob_db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/blob_db/blob_dump_tool.o src/rocksdb/utilities/blob_db/blob_dump_tool.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/blob_db/blob_dump_tool.o src/rocksdb/utilities/blob_db/blob_dump_tool.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/blob_db/blob_file.o: src/rocksdb/utilities/blob_db/blob_file.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/blob_db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/blob_db/blob_file.o src/rocksdb/utilities/blob_db/blob_file.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/blob_db/blob_file.o src/rocksdb/utilities/blob_db/blob_file.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/blob_db/blob_log_format.o: src/rocksdb/utilities/blob_db/blob_log_format.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/blob_db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/blob_db/blob_log_format.o src/rocksdb/utilities/blob_db/blob_log_format.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/blob_db/blob_log_format.o src/rocksdb/utilities/blob_db/blob_log_format.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/blob_db/blob_log_reader.o: src/rocksdb/utilities/blob_db/blob_log_reader.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/blob_db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/blob_db/blob_log_reader.o src/rocksdb/utilities/blob_db/blob_log_reader.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/blob_db/blob_log_reader.o src/rocksdb/utilities/blob_db/blob_log_reader.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/blob_db/blob_log_writer.o: src/rocksdb/utilities/blob_db/blob_log_writer.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/blob_db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/blob_db/blob_log_writer.o src/rocksdb/utilities/blob_db/blob_log_writer.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/blob_db/blob_log_writer.o src/rocksdb/utilities/blob_db/blob_log_writer.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/blob_db/ttl_extractor.o: src/rocksdb/utilities/blob_db/ttl_extractor.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/blob_db
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/blob_db/ttl_extractor.o src/rocksdb/utilities/blob_db/ttl_extractor.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/blob_db/ttl_extractor.o src/rocksdb/utilities/blob_db/ttl_extractor.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/cassandra/cassandra_compaction_filter.o: src/rocksdb/utilities/cassandra/cassandra_compaction_filter.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/cassandra
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/cassandra/cassandra_compaction_filter.o src/rocksdb/utilities/cassandra/cassandra_compaction_filter.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/cassandra/cassandra_compaction_filter.o src/rocksdb/utilities/cassandra/cassandra_compaction_filter.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/cassandra/format.o: src/rocksdb/utilities/cassandra/format.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/cassandra
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/cassandra/format.o src/rocksdb/utilities/cassandra/format.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/cassandra/format.o src/rocksdb/utilities/cassandra/format.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/cassandra/merge_operator.o: src/rocksdb/utilities/cassandra/merge_operator.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/cassandra
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/cassandra/merge_operator.o src/rocksdb/utilities/cassandra/merge_operator.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/cassandra/merge_operator.o src/rocksdb/utilities/cassandra/merge_operator.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/checkpoint/checkpoint_impl.o: src/rocksdb/utilities/checkpoint/checkpoint_impl.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/checkpoint
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/checkpoint/checkpoint_impl.o src/rocksdb/utilities/checkpoint/checkpoint_impl.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/checkpoint/checkpoint_impl.o src/rocksdb/utilities/checkpoint/checkpoint_impl.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/compaction_filters/remove_emptyvalue_compactionfilter.o: src/rocksdb/utilities/compaction_filters/remove_emptyvalue_compactionfilter.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/compaction_filters
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/compaction_filters/remove_emptyvalue_compactionfilter.o src/rocksdb/utilities/compaction_filters/remove_emptyvalue_compactionfilter.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/compaction_filters/remove_emptyvalue_compactionfilter.o src/rocksdb/utilities/compaction_filters/remove_emptyvalue_compactionfilter.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/convenience/info_log_finder.o: src/rocksdb/utilities/convenience/info_log_finder.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/convenience
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/convenience/info_log_finder.o src/rocksdb/utilities/convenience/info_log_finder.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/convenience/info_log_finder.o src/rocksdb/utilities/convenience/info_log_finder.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/date_tiered/date_tiered_db_impl.o: src/rocksdb/utilities/date_tiered/date_tiered_db_impl.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/date_tiered
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/date_tiered/date_tiered_db_impl.o src/rocksdb/utilities/date_tiered/date_tiered_db_impl.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/date_tiered/date_tiered_db_impl.o src/rocksdb/utilities/date_tiered/date_tiered_db_impl.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/document/document_db.o: src/rocksdb/utilities/document/document_db.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/document
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/document/document_db.o src/rocksdb/utilities/document/document_db.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/document/document_db.o src/rocksdb/utilities/document/document_db.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/document/json_document.o: src/rocksdb/utilities/document/json_document.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/document
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/document/json_document.o src/rocksdb/utilities/document/json_document.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/document/json_document.o src/rocksdb/utilities/document/json_document.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/document/json_document_builder.o: src/rocksdb/utilities/document/json_document_builder.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/document
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/document/json_document_builder.o src/rocksdb/utilities/document/json_document_builder.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/document/json_document_builder.o src/rocksdb/utilities/document/json_document_builder.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/geodb/geodb_impl.o: src/rocksdb/utilities/geodb/geodb_impl.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/geodb
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/geodb/geodb_impl.o src/rocksdb/utilities/geodb/geodb_impl.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/geodb/geodb_impl.o src/rocksdb/utilities/geodb/geodb_impl.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/leveldb_options/leveldb_options.o: src/rocksdb/utilities/leveldb_options/leveldb_options.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/leveldb_options
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/leveldb_options/leveldb_options.o src/rocksdb/utilities/leveldb_options/leveldb_options.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/leveldb_options/leveldb_options.o src/rocksdb/utilities/leveldb_options/leveldb_options.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/memory/memory_util.o: src/rocksdb/utilities/memory/memory_util.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/memory
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/memory/memory_util.o src/rocksdb/utilities/memory/memory_util.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/memory/memory_util.o src/rocksdb/utilities/memory/memory_util.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/merge_operators/max.o: src/rocksdb/utilities/merge_operators/max.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/merge_operators
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/merge_operators/max.o src/rocksdb/utilities/merge_operators/max.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/merge_operators/max.o src/rocksdb/utilities/merge_operators/max.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/merge_operators/put.o: src/rocksdb/utilities/merge_operators/put.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/merge_operators
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/merge_operators/put.o src/rocksdb/utilities/merge_operators/put.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/merge_operators/put.o src/rocksdb/utilities/merge_operators/put.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/merge_operators/string_append/stringappend.o: src/rocksdb/utilities/merge_operators/string_append/stringappend.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/merge_operators/string_append
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/merge_operators/string_append/stringappend.o src/rocksdb/utilities/merge_operators/string_append/stringappend.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/merge_operators/string_append/stringappend.o src/rocksdb/utilities/merge_operators/string_append/stringappend.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/merge_operators/string_append/stringappend2.o: src/rocksdb/utilities/merge_operators/string_append/stringappend2.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/merge_operators/string_append
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/merge_operators/string_append/stringappend2.o src/rocksdb/utilities/merge_operators/string_append/stringappend2.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/merge_operators/string_append/stringappend2.o src/rocksdb/utilities/merge_operators/string_append/stringappend2.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/merge_operators/uint64add.o: src/rocksdb/utilities/merge_operators/uint64add.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/merge_operators
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/merge_operators/uint64add.o src/rocksdb/utilities/merge_operators/uint64add.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/merge_operators/uint64add.o src/rocksdb/utilities/merge_operators/uint64add.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/option_change_migration/option_change_migration.o: src/rocksdb/utilities/option_change_migration/option_change_migration.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/option_change_migration
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/option_change_migration/option_change_migration.o src/rocksdb/utilities/option_change_migration/option_change_migration.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/option_change_migration/option_change_migration.o src/rocksdb/utilities/option_change_migration/option_change_migration.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/options/options_util.o: src/rocksdb/utilities/options/options_util.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/options
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/options/options_util.o src/rocksdb/utilities/options/options_util.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/options/options_util.o src/rocksdb/utilities/options/options_util.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/persistent_cache/block_cache_tier.o: src/rocksdb/utilities/persistent_cache/block_cache_tier.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/persistent_cache
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/persistent_cache/block_cache_tier.o src/rocksdb/utilities/persistent_cache/block_cache_tier.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/persistent_cache/block_cache_tier.o src/rocksdb/utilities/persistent_cache/block_cache_tier.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/persistent_cache/block_cache_tier_file.o: src/rocksdb/utilities/persistent_cache/block_cache_tier_file.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/persistent_cache
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/persistent_cache/block_cache_tier_file.o src/rocksdb/utilities/persistent_cache/block_cache_tier_file.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/persistent_cache/block_cache_tier_file.o src/rocksdb/utilities/persistent_cache/block_cache_tier_file.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/persistent_cache/block_cache_tier_metadata.o: src/rocksdb/utilities/persistent_cache/block_cache_tier_metadata.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/persistent_cache
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/persistent_cache/block_cache_tier_metadata.o src/rocksdb/utilities/persistent_cache/block_cache_tier_metadata.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/persistent_cache/block_cache_tier_metadata.o src/rocksdb/utilities/persistent_cache/block_cache_tier_metadata.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/persistent_cache/hash_table_bench.o: src/rocksdb/utilities/persistent_cache/hash_table_bench.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/persistent_cache
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/persistent_cache/hash_table_bench.o src/rocksdb/utilities/persistent_cache/hash_table_bench.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/persistent_cache/hash_table_bench.o src/rocksdb/utilities/persistent_cache/hash_table_bench.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/persistent_cache/persistent_cache_bench.o: src/rocksdb/utilities/persistent_cache/persistent_cache_bench.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/persistent_cache
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/persistent_cache/persistent_cache_bench.o src/rocksdb/utilities/persistent_cache/persistent_cache_bench.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/persistent_cache/persistent_cache_bench.o src/rocksdb/utilities/persistent_cache/persistent_cache_bench.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/persistent_cache/persistent_cache_tier.o: src/rocksdb/utilities/persistent_cache/persistent_cache_tier.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/persistent_cache
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/persistent_cache/persistent_cache_tier.o src/rocksdb/utilities/persistent_cache/persistent_cache_tier.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/persistent_cache/persistent_cache_tier.o src/rocksdb/utilities/persistent_cache/persistent_cache_tier.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/persistent_cache/volatile_tier_impl.o: src/rocksdb/utilities/persistent_cache/volatile_tier_impl.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/persistent_cache
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/persistent_cache/volatile_tier_impl.o src/rocksdb/utilities/persistent_cache/volatile_tier_impl.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/persistent_cache/volatile_tier_impl.o src/rocksdb/utilities/persistent_cache/volatile_tier_impl.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/redis/redis_lists.o: src/rocksdb/utilities/redis/redis_lists.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/redis
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/redis/redis_lists.o src/rocksdb/utilities/redis/redis_lists.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/redis/redis_lists.o src/rocksdb/utilities/redis/redis_lists.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/simulator_cache/sim_cache.o: src/rocksdb/utilities/simulator_cache/sim_cache.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/simulator_cache
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/simulator_cache/sim_cache.o src/rocksdb/utilities/simulator_cache/sim_cache.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/simulator_cache/sim_cache.o src/rocksdb/utilities/simulator_cache/sim_cache.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/spatialdb/spatial_db.o: src/rocksdb/utilities/spatialdb/spatial_db.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/spatialdb
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/spatialdb/spatial_db.o src/rocksdb/utilities/spatialdb/spatial_db.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/spatialdb/spatial_db.o src/rocksdb/utilities/spatialdb/spatial_db.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/table_properties_collectors/compact_on_deletion_collector.o: src/rocksdb/utilities/table_properties_collectors/compact_on_deletion_collector.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/table_properties_collectors
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/table_properties_collectors/compact_on_deletion_collector.o src/rocksdb/utilities/table_properties_collectors/compact_on_deletion_collector.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/table_properties_collectors/compact_on_deletion_collector.o src/rocksdb/utilities/table_properties_collectors/compact_on_deletion_collector.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/transactions/optimistic_transaction.o: src/rocksdb/utilities/transactions/optimistic_transaction.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/transactions
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/transactions/optimistic_transaction.o src/rocksdb/utilities/transactions/optimistic_transaction.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/transactions/optimistic_transaction.o src/rocksdb/utilities/transactions/optimistic_transaction.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/transactions/optimistic_transaction_db_impl.o: src/rocksdb/utilities/transactions/optimistic_transaction_db_impl.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/transactions
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/transactions/optimistic_transaction_db_impl.o src/rocksdb/utilities/transactions/optimistic_transaction_db_impl.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/transactions/optimistic_transaction_db_impl.o src/rocksdb/utilities/transactions/optimistic_transaction_db_impl.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/transactions/pessimistic_transaction.o: src/rocksdb/utilities/transactions/pessimistic_transaction.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/transactions
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/transactions/pessimistic_transaction.o src/rocksdb/utilities/transactions/pessimistic_transaction.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/transactions/pessimistic_transaction.o src/rocksdb/utilities/transactions/pessimistic_transaction.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/transactions/pessimistic_transaction_db.o: src/rocksdb/utilities/transactions/pessimistic_transaction_db.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/transactions
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/transactions/pessimistic_transaction_db.o src/rocksdb/utilities/transactions/pessimistic_transaction_db.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/transactions/pessimistic_transaction_db.o src/rocksdb/utilities/transactions/pessimistic_transaction_db.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/transactions/snapshot_checker.o: src/rocksdb/utilities/transactions/snapshot_checker.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/transactions
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/transactions/snapshot_checker.o src/rocksdb/utilities/transactions/snapshot_checker.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/transactions/snapshot_checker.o src/rocksdb/utilities/transactions/snapshot_checker.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/transactions/transaction_base.o: src/rocksdb/utilities/transactions/transaction_base.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/transactions
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/transactions/transaction_base.o src/rocksdb/utilities/transactions/transaction_base.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/transactions/transaction_base.o src/rocksdb/utilities/transactions/transaction_base.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/transactions/transaction_db_mutex_impl.o: src/rocksdb/utilities/transactions/transaction_db_mutex_impl.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/transactions
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/transactions/transaction_db_mutex_impl.o src/rocksdb/utilities/transactions/transaction_db_mutex_impl.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/transactions/transaction_db_mutex_impl.o src/rocksdb/utilities/transactions/transaction_db_mutex_impl.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/transactions/transaction_lock_mgr.o: src/rocksdb/utilities/transactions/transaction_lock_mgr.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/transactions
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/transactions/transaction_lock_mgr.o src/rocksdb/utilities/transactions/transaction_lock_mgr.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/transactions/transaction_lock_mgr.o src/rocksdb/utilities/transactions/transaction_lock_mgr.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/transactions/transaction_util.o: src/rocksdb/utilities/transactions/transaction_util.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/transactions
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/transactions/transaction_util.o src/rocksdb/utilities/transactions/transaction_util.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/transactions/transaction_util.o src/rocksdb/utilities/transactions/transaction_util.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/transactions/write_prepared_txn.o: src/rocksdb/utilities/transactions/write_prepared_txn.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/transactions
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/transactions/write_prepared_txn.o src/rocksdb/utilities/transactions/write_prepared_txn.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/transactions/write_prepared_txn.o src/rocksdb/utilities/transactions/write_prepared_txn.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/transactions/write_prepared_txn_db.o: src/rocksdb/utilities/transactions/write_prepared_txn_db.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/transactions
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/transactions/write_prepared_txn_db.o src/rocksdb/utilities/transactions/write_prepared_txn_db.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/transactions/write_prepared_txn_db.o src/rocksdb/utilities/transactions/write_prepared_txn_db.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/ttl/db_ttl_impl.o: src/rocksdb/utilities/ttl/db_ttl_impl.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/ttl
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/ttl/db_ttl_impl.o src/rocksdb/utilities/ttl/db_ttl_impl.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/ttl/db_ttl_impl.o src/rocksdb/utilities/ttl/db_ttl_impl.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/write_batch_with_index/write_batch_with_index.o: src/rocksdb/utilities/write_batch_with_index/write_batch_with_index.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/write_batch_with_index
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/write_batch_with_index/write_batch_with_index.o src/rocksdb/utilities/write_batch_with_index/write_batch_with_index.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/write_batch_with_index/write_batch_with_index.o src/rocksdb/utilities/write_batch_with_index/write_batch_with_index.cc
 
 ${OBJECTDIR}/src/rocksdb/utilities/write_batch_with_index/write_batch_with_index_internal.o: src/rocksdb/utilities/write_batch_with_index/write_batch_with_index_internal.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/utilities/write_batch_with_index
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/write_batch_with_index/write_batch_with_index_internal.o src/rocksdb/utilities/write_batch_with_index/write_batch_with_index_internal.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/utilities/write_batch_with_index/write_batch_with_index_internal.o src/rocksdb/utilities/write_batch_with_index/write_batch_with_index_internal.cc
 
 ${OBJECTDIR}/src/snappy/snappy-sinksource.o: src/snappy/snappy-sinksource.cc
 	${MKDIR} -p ${OBJECTDIR}/src/snappy
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/snappy/snappy-sinksource.o src/snappy/snappy-sinksource.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/snappy/snappy-sinksource.o src/snappy/snappy-sinksource.cc
 
 ${OBJECTDIR}/src/snappy/snappy-stubs-internal.o: src/snappy/snappy-stubs-internal.cc
 	${MKDIR} -p ${OBJECTDIR}/src/snappy
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/snappy/snappy-stubs-internal.o src/snappy/snappy-stubs-internal.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/snappy/snappy-stubs-internal.o src/snappy/snappy-stubs-internal.cc
 
 ${OBJECTDIR}/src/snappy/snappy.o: src/snappy/snappy.cc
 	${MKDIR} -p ${OBJECTDIR}/src/snappy
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/snappy/snappy.o src/snappy/snappy.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/snappy/snappy.o src/snappy/snappy.cc
 
 ${OBJECTDIR}/src/zkadapter/event.o: src/zkadapter/event.cc
 	${MKDIR} -p ${OBJECTDIR}/src/zkadapter
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/zkadapter/event.o src/zkadapter/event.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/zkadapter/event.o src/zkadapter/event.cc
 
 ${OBJECTDIR}/src/zkadapter/log.o: src/zkadapter/log.cc
 	${MKDIR} -p ${OBJECTDIR}/src/zkadapter
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/zkadapter/log.o src/zkadapter/log.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/zkadapter/log.o src/zkadapter/log.cc
 
 ${OBJECTDIR}/src/zkadapter/thread.o: src/zkadapter/thread.cc
 	${MKDIR} -p ${OBJECTDIR}/src/zkadapter
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/zkadapter/thread.o src/zkadapter/thread.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/zkadapter/thread.o src/zkadapter/thread.cc
 
 ${OBJECTDIR}/src/zkadapter/zkadapter.o: src/zkadapter/zkadapter.cc
 	${MKDIR} -p ${OBJECTDIR}/src/zkadapter
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/zkadapter/zkadapter.o src/zkadapter/zkadapter.cc
+	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/zkadapter/zkadapter.o src/zkadapter/zkadapter.cc
 
 ${OBJECTDIR}/src/zookeeper/hashtable/hashtable.o: src/zookeeper/hashtable/hashtable.c
 	${MKDIR} -p ${OBJECTDIR}/src/zookeeper/hashtable

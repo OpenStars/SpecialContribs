@@ -860,6 +860,7 @@
           <warningLevel>2</warningLevel>
         </cTool>
         <ccTool>
+          <standard>8</standard>
           <incDir>
             <pElem>inc</pElem>
             <pElem>include/kyotocabinet</pElem>
@@ -884,56 +885,6 @@
           <output>lib/libspecialcontribsd.a</output>
         </archiverTool>
       </compileType>
-      <item path="src/leveldb/db/filename.cc"
-            ex="false"
-            tool="1"
-            flavor2="0">
-        <ccTool>
-          <incDir>
-            <pElem>src/leveldb</pElem>
-          </incDir>
-        </ccTool>
-      </item>
-      <item path="src/leveldb/port/README"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="src/leveldb/port/atomic_pointer.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="src/leveldb/port/port.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="src/leveldb/port/port_example.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="src/leveldb/port/port_posix.cc"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="src/leveldb/port/port_posix.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="src/leveldb/port/port_posix_sse.cc"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="src/leveldb/port/thread_annotations.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
       <item path="include/kyotocabinet/cmdcommon.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="include/kyotocabinet/kccachedb.h" ex="false" tool="3" flavor2="0">
@@ -1425,6 +1376,13 @@
           </incDir>
         </ccTool>
       </item>
+      <item path="src/leveldb/db/filename.cc" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>src/leveldb</pElem>
+          </incDir>
+        </ccTool>
+      </item>
       <item path="src/leveldb/db/log_reader.cc" ex="false" tool="1" flavor2="0">
         <ccTool>
           <incDir>
@@ -1513,6 +1471,25 @@
         </ccTool>
       </item>
       <item path="src/leveldb/helpers/memenv/memenv.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/leveldb/port/README" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/port/atomic_pointer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/port/port.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/port/port_example.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/port/port_posix.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/port/port_posix.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/port/port_posix_sse.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/leveldb/port/thread_annotations.h"
             ex="false"
             tool="3"
             flavor2="0">
@@ -3451,6 +3428,7 @@
         </cTool>
         <ccTool>
           <developmentMode>5</developmentMode>
+          <standard>8</standard>
           <incDir>
             <pElem>inc</pElem>
             <pElem>include/kyotocabinet</pElem>
@@ -3481,66 +3459,6 @@
           <output>lib/libspecialcontribs.a</output>
         </archiverTool>
       </compileType>
-      <item path="src/leveldb/db/filename.cc"
-            ex="false"
-            tool="1"
-            flavor2="0">
-        <ccTool>
-          <incDir>
-            <pElem>src/leveldb</pElem>
-          </incDir>
-        </ccTool>
-      </item>
-      <item path="src/leveldb/port/README"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="src/leveldb/port/atomic_pointer.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="src/leveldb/port/port.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="src/leveldb/port/port_example.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="src/leveldb/port/port_posix.cc"
-            ex="false"
-            tool="1"
-            flavor2="0">
-        <ccTool>
-          <incDir>
-            <pElem>src/leveldb</pElem>
-          </incDir>
-        </ccTool>
-      </item>
-      <item path="src/leveldb/port/port_posix.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="src/leveldb/port/port_posix_sse.cc"
-            ex="false"
-            tool="1"
-            flavor2="0">
-        <ccTool>
-          <incDir>
-            <pElem>src/leveldb</pElem>
-          </incDir>
-        </ccTool>
-      </item>
-      <item path="src/leveldb/port/thread_annotations.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
       <item path="include/kyotocabinet/cmdcommon.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="include/kyotocabinet/kccachedb.h" ex="false" tool="3" flavor2="0">
@@ -4032,6 +3950,13 @@
           </incDir>
         </ccTool>
       </item>
+      <item path="src/leveldb/db/filename.cc" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>src/leveldb</pElem>
+          </incDir>
+        </ccTool>
+      </item>
       <item path="src/leveldb/db/log_reader.cc" ex="false" tool="1" flavor2="0">
         <ccTool>
           <incDir>
@@ -4120,6 +4045,35 @@
         </ccTool>
       </item>
       <item path="src/leveldb/helpers/memenv/memenv.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/leveldb/port/README" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/port/atomic_pointer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/port/port.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/port/port_example.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/port/port_posix.cc" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>src/leveldb</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/leveldb/port/port_posix.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/leveldb/port/port_posix_sse.cc" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>src/leveldb</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/leveldb/port/thread_annotations.h"
             ex="false"
             tool="3"
             flavor2="0">
