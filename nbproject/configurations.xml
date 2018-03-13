@@ -457,7 +457,6 @@
           <itemPath>src/rocksdb/memtable/stl_wrappers.h</itemPath>
           <itemPath>src/rocksdb/memtable/vectorrep.cc</itemPath>
           <itemPath>src/rocksdb/memtable/write_buffer_manager.cc</itemPath>
-          <itemPath>src/rocksdb/memtable/write_buffer_manager_test.cc</itemPath>
         </logicalFolder>
         <logicalFolder name="f5" displayName="monitoring" projectFiles="true">
           <itemPath>src/rocksdb/monitoring/histogram.cc</itemPath>
@@ -495,7 +494,6 @@
           <itemPath>src/rocksdb/options/options_parser.h</itemPath>
           <itemPath>src/rocksdb/options/options_sanity_check.cc</itemPath>
           <itemPath>src/rocksdb/options/options_sanity_check.h</itemPath>
-          <itemPath>src/rocksdb/options/options_settable_test.cc</itemPath>
         </logicalFolder>
         <logicalFolder name="f7" displayName="port" projectFiles="true">
           <itemPath>src/rocksdb/port/port.h</itemPath>
@@ -536,7 +534,6 @@
           <itemPath>src/rocksdb/table/full_filter_bits_builder.h</itemPath>
           <itemPath>src/rocksdb/table/full_filter_block.cc</itemPath>
           <itemPath>src/rocksdb/table/full_filter_block.h</itemPath>
-          <itemPath>src/rocksdb/table/full_filter_block_test.cc</itemPath>
           <itemPath>src/rocksdb/table/get_context.cc</itemPath>
           <itemPath>src/rocksdb/table/get_context.h</itemPath>
           <itemPath>src/rocksdb/table/index_builder.cc</itemPath>
@@ -2105,11 +2102,6 @@
             tool="1"
             flavor2="0">
       </item>
-      <item path="src/rocksdb/memtable/write_buffer_manager_test.cc"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
       <item path="src/rocksdb/monitoring/histogram.cc"
             ex="false"
             tool="1"
@@ -2257,11 +2249,6 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="src/rocksdb/options/options_settable_test.cc"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
       <item path="src/rocksdb/port/port.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="src/rocksdb/port/port_posix.cc" ex="false" tool="1" flavor2="0">
@@ -2398,11 +2385,6 @@
       <item path="src/rocksdb/table/full_filter_block.h"
             ex="false"
             tool="3"
-            flavor2="0">
-      </item>
-      <item path="src/rocksdb/table/full_filter_block_test.cc"
-            ex="false"
-            tool="1"
             flavor2="0">
       </item>
       <item path="src/rocksdb/table/get_context.cc" ex="false" tool="1" flavor2="0">
@@ -4689,11 +4671,6 @@
             tool="1"
             flavor2="0">
       </item>
-      <item path="src/rocksdb/memtable/write_buffer_manager_test.cc"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
       <item path="src/rocksdb/monitoring/histogram.cc"
             ex="false"
             tool="1"
@@ -4841,11 +4818,6 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="src/rocksdb/options/options_settable_test.cc"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
       <item path="src/rocksdb/port/port.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="src/rocksdb/port/port_posix.cc" ex="false" tool="1" flavor2="0">
@@ -4982,11 +4954,6 @@
       <item path="src/rocksdb/table/full_filter_block.h"
             ex="false"
             tool="3"
-            flavor2="0">
-      </item>
-      <item path="src/rocksdb/table/full_filter_block_test.cc"
-            ex="false"
-            tool="1"
             flavor2="0">
       </item>
       <item path="src/rocksdb/table/get_context.cc" ex="false" tool="1" flavor2="0">

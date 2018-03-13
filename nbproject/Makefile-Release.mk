@@ -202,7 +202,6 @@ OBJECTFILES= \
 	${OBJECTDIR}/src/rocksdb/memtable/skiplistrep.o \
 	${OBJECTDIR}/src/rocksdb/memtable/vectorrep.o \
 	${OBJECTDIR}/src/rocksdb/memtable/write_buffer_manager.o \
-	${OBJECTDIR}/src/rocksdb/memtable/write_buffer_manager_test.o \
 	${OBJECTDIR}/src/rocksdb/monitoring/histogram.o \
 	${OBJECTDIR}/src/rocksdb/monitoring/histogram_windowing.o \
 	${OBJECTDIR}/src/rocksdb/monitoring/instrumented_mutex.o \
@@ -221,7 +220,6 @@ OBJECTFILES= \
 	${OBJECTDIR}/src/rocksdb/options/options_helper.o \
 	${OBJECTDIR}/src/rocksdb/options/options_parser.o \
 	${OBJECTDIR}/src/rocksdb/options/options_sanity_check.o \
-	${OBJECTDIR}/src/rocksdb/options/options_settable_test.o \
 	${OBJECTDIR}/src/rocksdb/port/port_posix.o \
 	${OBJECTDIR}/src/rocksdb/port/stack_trace.o \
 	${OBJECTDIR}/src/rocksdb/table/adaptive_table_factory.o \
@@ -239,7 +237,6 @@ OBJECTFILES= \
 	${OBJECTDIR}/src/rocksdb/table/flush_block_policy.o \
 	${OBJECTDIR}/src/rocksdb/table/format.o \
 	${OBJECTDIR}/src/rocksdb/table/full_filter_block.o \
-	${OBJECTDIR}/src/rocksdb/table/full_filter_block_test.o \
 	${OBJECTDIR}/src/rocksdb/table/get_context.o \
 	${OBJECTDIR}/src/rocksdb/table/index_builder.o \
 	${OBJECTDIR}/src/rocksdb/table/iterator.o \
@@ -1225,11 +1222,6 @@ ${OBJECTDIR}/src/rocksdb/memtable/write_buffer_manager.o: src/rocksdb/memtable/w
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/memtable/write_buffer_manager.o src/rocksdb/memtable/write_buffer_manager.cc
 
-${OBJECTDIR}/src/rocksdb/memtable/write_buffer_manager_test.o: src/rocksdb/memtable/write_buffer_manager_test.cc
-	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/memtable
-	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/memtable/write_buffer_manager_test.o src/rocksdb/memtable/write_buffer_manager_test.cc
-
 ${OBJECTDIR}/src/rocksdb/monitoring/histogram.o: src/rocksdb/monitoring/histogram.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/monitoring
 	${RM} "$@.d"
@@ -1320,11 +1312,6 @@ ${OBJECTDIR}/src/rocksdb/options/options_sanity_check.o: src/rocksdb/options/opt
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/options/options_sanity_check.o src/rocksdb/options/options_sanity_check.cc
 
-${OBJECTDIR}/src/rocksdb/options/options_settable_test.o: src/rocksdb/options/options_settable_test.cc
-	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/options
-	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/options/options_settable_test.o src/rocksdb/options/options_settable_test.cc
-
 ${OBJECTDIR}/src/rocksdb/port/port_posix.o: src/rocksdb/port/port_posix.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/port
 	${RM} "$@.d"
@@ -1409,11 +1396,6 @@ ${OBJECTDIR}/src/rocksdb/table/full_filter_block.o: src/rocksdb/table/full_filte
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/table
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/full_filter_block.o src/rocksdb/table/full_filter_block.cc
-
-${OBJECTDIR}/src/rocksdb/table/full_filter_block_test.o: src/rocksdb/table/full_filter_block_test.cc
-	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/table
-	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/table/full_filter_block_test.o src/rocksdb/table/full_filter_block_test.cc
 
 ${OBJECTDIR}/src/rocksdb/table/get_context.o: src/rocksdb/table/get_context.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/table
