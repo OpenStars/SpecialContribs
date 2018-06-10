@@ -6,6 +6,24 @@
                    projectFiles="true">
     </logicalFolder>
     <logicalFolder name="include" displayName="include" projectFiles="true">
+      <logicalFolder name="f3" displayName="jemalloc" projectFiles="true">
+        <itemPath>include/jemalloc/jemalloc.h</itemPath>
+        <itemPath>include/jemalloc/jemalloc.sh</itemPath>
+        <itemPath>include/jemalloc/jemalloc_defs.h</itemPath>
+        <itemPath>include/jemalloc/jemalloc_defs.h.in</itemPath>
+        <itemPath>include/jemalloc/jemalloc_macros.h</itemPath>
+        <itemPath>include/jemalloc/jemalloc_macros.h.in</itemPath>
+        <itemPath>include/jemalloc/jemalloc_mangle.h</itemPath>
+        <itemPath>include/jemalloc/jemalloc_mangle.sh</itemPath>
+        <itemPath>include/jemalloc/jemalloc_mangle_jet.h</itemPath>
+        <itemPath>include/jemalloc/jemalloc_protos.h</itemPath>
+        <itemPath>include/jemalloc/jemalloc_protos.h.in</itemPath>
+        <itemPath>include/jemalloc/jemalloc_protos_jet.h</itemPath>
+        <itemPath>include/jemalloc/jemalloc_rename.h</itemPath>
+        <itemPath>include/jemalloc/jemalloc_rename.sh</itemPath>
+        <itemPath>include/jemalloc/jemalloc_typedefs.h</itemPath>
+        <itemPath>include/jemalloc/jemalloc_typedefs.h.in</itemPath>
+      </logicalFolder>
       <logicalFolder name="f1" displayName="kyotocabinet" projectFiles="true">
         <itemPath>include/kyotocabinet/cmdcommon.h</itemPath>
         <itemPath>include/kyotocabinet/kccachedb.h</itemPath>
@@ -171,6 +189,40 @@
         <itemPath>src/hashkit/strerror.h</itemPath>
         <itemPath>src/hashkit/types.h</itemPath>
         <itemPath>src/hashkit/visibility.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f4" displayName="jemalloc" projectFiles="true">
+        <itemPath>src/jemalloc/src/arena.c</itemPath>
+        <itemPath>src/jemalloc/src/background_thread.c</itemPath>
+        <itemPath>src/jemalloc/src/base.c</itemPath>
+        <itemPath>src/jemalloc/src/bin.c</itemPath>
+        <itemPath>src/jemalloc/src/bitmap.c</itemPath>
+        <itemPath>src/jemalloc/src/ckh.c</itemPath>
+        <itemPath>src/jemalloc/src/ctl.c</itemPath>
+        <itemPath>src/jemalloc/src/div.c</itemPath>
+        <itemPath>src/jemalloc/src/extent.c</itemPath>
+        <itemPath>src/jemalloc/src/extent_dss.c</itemPath>
+        <itemPath>src/jemalloc/src/extent_mmap.c</itemPath>
+        <itemPath>src/jemalloc/src/hash.c</itemPath>
+        <itemPath>src/jemalloc/src/hooks.c</itemPath>
+        <itemPath>src/jemalloc/src/jemalloc.c</itemPath>
+        <itemPath>src/jemalloc/src/jemalloc_cpp.cpp</itemPath>
+        <itemPath>src/jemalloc/src/large.c</itemPath>
+        <itemPath>src/jemalloc/src/log.c</itemPath>
+        <itemPath>src/jemalloc/src/malloc_io.c</itemPath>
+        <itemPath>src/jemalloc/src/mutex.c</itemPath>
+        <itemPath>src/jemalloc/src/mutex_pool.c</itemPath>
+        <itemPath>src/jemalloc/src/nstime.c</itemPath>
+        <itemPath>src/jemalloc/src/pages.c</itemPath>
+        <itemPath>src/jemalloc/src/prng.c</itemPath>
+        <itemPath>src/jemalloc/src/prof.c</itemPath>
+        <itemPath>src/jemalloc/src/rtree.c</itemPath>
+        <itemPath>src/jemalloc/src/stats.c</itemPath>
+        <itemPath>src/jemalloc/src/sz.c</itemPath>
+        <itemPath>src/jemalloc/src/tcache.c</itemPath>
+        <itemPath>src/jemalloc/src/ticker.c</itemPath>
+        <itemPath>src/jemalloc/src/tsd.c</itemPath>
+        <itemPath>src/jemalloc/src/witness.c</itemPath>
+        <itemPath>src/jemalloc/src/zone.c</itemPath>
       </logicalFolder>
       <logicalFolder name="f2" displayName="KyotoCabinet" projectFiles="true">
         <itemPath>src/kyotocabinet/kccachedb.cc</itemPath>
@@ -822,6 +874,12 @@
                    displayName="Test Files"
                    projectFiles="false"
                    kind="TEST_LOGICAL_FOLDER">
+      <logicalFolder name="f1"
+                     displayName="TestSnappy"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>tests/TestSnappy.cpp</itemPath>
+      </logicalFolder>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -851,8 +909,10 @@
           <preprocessorList>
             <Elem>BUILD_LIBSTATGRAB</Elem>
             <Elem>HAVE_CONFIG_H</Elem>
+            <Elem>JEMALLOC_NO_PRIVATE_NAMESPACE</Elem>
             <Elem>THREADED</Elem>
             <Elem>_GNU_SOURCE</Elem>
+            <Elem>_REENTRANT</Elem>
           </preprocessorList>
           <warningLevel>2</warningLevel>
         </cTool>
@@ -870,6 +930,7 @@
           <preprocessorList>
             <Elem>BUILD_LIBSTATGRAB</Elem>
             <Elem>HAVE_CONFIG_H</Elem>
+            <Elem>JEMALLOC_NO_PRIVATE_NAMESPACE</Elem>
             <Elem>LEVELDB_PLATFORM_POSIX</Elem>
             <Elem>OS_LINUX</Elem>
             <Elem>ROCKSDB_LIB_IO_POSIX</Elem>
@@ -882,6 +943,80 @@
           <output>lib/libspecialcontribsd.a</output>
         </archiverTool>
       </compileType>
+      <folder path="TestFiles/f1">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f1</output>
+        </linkerTool>
+      </folder>
+      <item path="include/jemalloc/jemalloc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jemalloc/jemalloc.sh" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jemalloc/jemalloc_defs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jemalloc/jemalloc_defs.h.in"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/jemalloc/jemalloc_macros.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jemalloc/jemalloc_macros.h.in"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/jemalloc/jemalloc_mangle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jemalloc/jemalloc_mangle.sh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/jemalloc/jemalloc_mangle_jet.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/jemalloc/jemalloc_protos.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jemalloc/jemalloc_protos.h.in"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/jemalloc/jemalloc_protos_jet.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/jemalloc/jemalloc_rename.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jemalloc/jemalloc_rename.sh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/jemalloc/jemalloc_typedefs.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/jemalloc/jemalloc_typedefs.h.in"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
       <item path="include/kyotocabinet/cmdcommon.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="include/kyotocabinet/kccachedb.h" ex="false" tool="3" flavor2="0">
@@ -1271,6 +1406,71 @@
       </item>
       <item path="src/hashkit/visibility.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="src/jemalloc/src/arena.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/background_thread.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/base.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/bin.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/bitmap.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/ckh.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/ctl.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/div.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/extent.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/extent_dss.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/extent_mmap.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/hash.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/hooks.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/jemalloc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/jemalloc_cpp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/large.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/log.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/malloc_io.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/mutex.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/mutex_pool.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/nstime.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/pages.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/prng.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/prof.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/rtree.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/stats.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/sz.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/tcache.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/ticker.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/tsd.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/witness.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="src/kyotocabinet/kccachedb.cc" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/kyotocabinet/kccompare.cc" ex="false" tool="1" flavor2="0">
@@ -1481,6 +1681,11 @@
       <item path="src/leveldb/port/port_example.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="src/leveldb/port/port_posix.cc" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>src/leveldb</pElem>
+          </incDir>
+        </ccTool>
       </item>
       <item path="src/leveldb/port/port_posix.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -3383,6 +3588,8 @@
       </item>
       <item path="src/zookeeper/zookeeper_version.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="tests/TestSnappy.cpp" ex="false" tool="1" flavor2="0">
+      </item>
     </conf>
     <conf name="Release" type="3">
       <toolsSet>
@@ -3404,8 +3611,10 @@
           <preprocessorList>
             <Elem>BUILD_LIBSTATGRAB</Elem>
             <Elem>HAVE_CONFIG_H</Elem>
+            <Elem>JEMALLOC_NO_PRIVATE_NAMESPACE</Elem>
             <Elem>THREADED</Elem>
             <Elem>_GNU_SOURCE</Elem>
+            <Elem>_REENTRANT</Elem>
           </preprocessorList>
         </cTool>
         <ccTool>
@@ -3423,6 +3632,7 @@
           <preprocessorList>
             <Elem>BUILD_LIBSTATGRAB</Elem>
             <Elem>HAVE_CONFIG_H</Elem>
+            <Elem>JEMALLOC_NO_PRIVATE_NAMESPACE</Elem>
             <Elem>LEVELDB_PLATFORM_POSIX</Elem>
             <Elem>OS_LINUX</Elem>
             <Elem>ROCKSDB_LIB_IO_POSIX</Elem>
@@ -3441,6 +3651,80 @@
           <output>lib/libspecialcontribs.a</output>
         </archiverTool>
       </compileType>
+      <folder path="TestFiles/f1">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f1</output>
+        </linkerTool>
+      </folder>
+      <item path="include/jemalloc/jemalloc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jemalloc/jemalloc.sh" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jemalloc/jemalloc_defs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jemalloc/jemalloc_defs.h.in"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/jemalloc/jemalloc_macros.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jemalloc/jemalloc_macros.h.in"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/jemalloc/jemalloc_mangle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jemalloc/jemalloc_mangle.sh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/jemalloc/jemalloc_mangle_jet.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/jemalloc/jemalloc_protos.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jemalloc/jemalloc_protos.h.in"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/jemalloc/jemalloc_protos_jet.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/jemalloc/jemalloc_rename.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jemalloc/jemalloc_rename.sh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/jemalloc/jemalloc_typedefs.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/jemalloc/jemalloc_typedefs.h.in"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
       <item path="include/kyotocabinet/cmdcommon.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="include/kyotocabinet/kccachedb.h" ex="false" tool="3" flavor2="0">
@@ -3829,6 +4113,71 @@
       <item path="src/hashkit/types.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="src/hashkit/visibility.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/arena.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/background_thread.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/base.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/bin.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/bitmap.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/ckh.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/ctl.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/div.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/extent.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/extent_dss.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/extent_mmap.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/hash.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/hooks.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/jemalloc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/jemalloc_cpp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/large.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/log.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/malloc_io.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/mutex.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/mutex_pool.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/nstime.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/pages.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/prng.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/prof.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/rtree.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/stats.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/sz.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/tcache.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/ticker.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/tsd.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/jemalloc/src/witness.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="src/kyotocabinet/kccachedb.cc" ex="false" tool="1" flavor2="0">
       </item>
@@ -5947,6 +6296,8 @@
       <item path="src/zookeeper/zookeeper_log.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="src/zookeeper/zookeeper_version.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tests/TestSnappy.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
   </confs>
