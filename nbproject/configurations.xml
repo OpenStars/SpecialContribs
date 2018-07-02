@@ -2815,11 +2815,7 @@
       </item>
       <item path="src/rocksdb/util/crc32c.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="src/rocksdb/util/crc32c_ppc.c" ex="false" tool="0" flavor2="0">
-      </item>
       <item path="src/rocksdb/util/crc32c_ppc.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="src/rocksdb/util/crc32c_ppc_asm.S" ex="false" tool="4" flavor2="0">
       </item>
       <item path="src/rocksdb/util/crc32c_ppc_constants.h"
             ex="false"

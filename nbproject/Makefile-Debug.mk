@@ -295,8 +295,6 @@ OBJECTFILES= \
 	${OBJECTDIR}/src/rocksdb/util/comparator.o \
 	${OBJECTDIR}/src/rocksdb/util/concurrent_arena.o \
 	${OBJECTDIR}/src/rocksdb/util/crc32c.o \
-	${OBJECTDIR}/src/rocksdb/util/crc32c_ppc.o \
-	${OBJECTDIR}/src/rocksdb/util/crc32c_ppc_asm.o \
 	${OBJECTDIR}/src/rocksdb/util/delete_scheduler.o \
 	${OBJECTDIR}/src/rocksdb/util/dynamic_bloom.o \
 	${OBJECTDIR}/src/rocksdb/util/event_logger.o \
@@ -1729,15 +1727,6 @@ ${OBJECTDIR}/src/rocksdb/util/crc32c.o: src/rocksdb/util/crc32c.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DJEMALLOC_NO_PRIVATE_NAMESPACE -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/crc32c.o src/rocksdb/util/crc32c.cc
-
-${OBJECTDIR}/src/rocksdb/util/crc32c_ppc.o: src/rocksdb/util/crc32c_ppc.c
-	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
-	${RM} "$@.d"
-	$(COMPILE.c) -g -Wall -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DJEMALLOC_NO_PRIVATE_NAMESPACE -DTHREADED -D_GNU_SOURCE -D_REENTRANT -Iinc -Isrc/hashkit -Isrc/libstatgrab -Isrc/zookeeper -Isrc/leveldb -Isrc/ -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/crc32c_ppc.o src/rocksdb/util/crc32c_ppc.c
-
-${OBJECTDIR}/src/rocksdb/util/crc32c_ppc_asm.o: src/rocksdb/util/crc32c_ppc_asm.S
-	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
-	$(AS) $(ASFLAGS) -g -o ${OBJECTDIR}/src/rocksdb/util/crc32c_ppc_asm.o src/rocksdb/util/crc32c_ppc_asm.S
 
 ${OBJECTDIR}/src/rocksdb/util/delete_scheduler.o: src/rocksdb/util/delete_scheduler.cc
 	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
@@ -5610,31 +5599,6 @@ ${OBJECTDIR}/src/rocksdb/util/crc32c_nomain.o: ${OBJECTDIR}/src/rocksdb/util/crc
 	    $(COMPILE.cc) -g -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DJEMALLOC_NO_PRIVATE_NAMESPACE -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -Dmain=__nomain -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/crc32c_nomain.o src/rocksdb/util/crc32c.cc;\
 	else  \
 	    ${CP} ${OBJECTDIR}/src/rocksdb/util/crc32c.o ${OBJECTDIR}/src/rocksdb/util/crc32c_nomain.o;\
-	fi
-
-${OBJECTDIR}/src/rocksdb/util/crc32c_ppc_nomain.o: ${OBJECTDIR}/src/rocksdb/util/crc32c_ppc.o src/rocksdb/util/crc32c_ppc.c 
-	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
-	@NMOUTPUT=`${NM} ${OBJECTDIR}/src/rocksdb/util/crc32c_ppc.o`; \
-	if (echo "$$NMOUTPUT" | ${GREP} '|main$$') || \
-	   (echo "$$NMOUTPUT" | ${GREP} 'T main$$') || \
-	   (echo "$$NMOUTPUT" | ${GREP} 'T _main$$'); \
-	then  \
-	    ${RM} "$@.d";\
-	    $(COMPILE.c) -g -Wall -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DJEMALLOC_NO_PRIVATE_NAMESPACE -DTHREADED -D_GNU_SOURCE -D_REENTRANT -Iinc -Isrc/hashkit -Isrc/libstatgrab -Isrc/zookeeper -Isrc/leveldb -Isrc/ -Dmain=__nomain -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/rocksdb/util/crc32c_ppc_nomain.o src/rocksdb/util/crc32c_ppc.c;\
-	else  \
-	    ${CP} ${OBJECTDIR}/src/rocksdb/util/crc32c_ppc.o ${OBJECTDIR}/src/rocksdb/util/crc32c_ppc_nomain.o;\
-	fi
-
-${OBJECTDIR}/src/rocksdb/util/crc32c_ppc_asm_nomain.o: ${OBJECTDIR}/src/rocksdb/util/crc32c_ppc_asm.o src/rocksdb/util/crc32c_ppc_asm.S 
-	${MKDIR} -p ${OBJECTDIR}/src/rocksdb/util
-	@NMOUTPUT=`${NM} ${OBJECTDIR}/src/rocksdb/util/crc32c_ppc_asm.o`; \
-	if (echo "$$NMOUTPUT" | ${GREP} '|main$$') || \
-	   (echo "$$NMOUTPUT" | ${GREP} 'T main$$') || \
-	   (echo "$$NMOUTPUT" | ${GREP} 'T _main$$'); \
-	then  \
-	    $(AS) $(ASFLAGS) -g -Dmain=__nomain -o ${OBJECTDIR}/src/rocksdb/util/crc32c_ppc_asm_nomain.o src/rocksdb/util/crc32c_ppc_asm.S;\
-	else  \
-	    ${CP} ${OBJECTDIR}/src/rocksdb/util/crc32c_ppc_asm.o ${OBJECTDIR}/src/rocksdb/util/crc32c_ppc_asm_nomain.o;\
 	fi
 
 ${OBJECTDIR}/src/rocksdb/util/delete_scheduler_nomain.o: ${OBJECTDIR}/src/rocksdb/util/delete_scheduler.o src/rocksdb/util/delete_scheduler.cc 
