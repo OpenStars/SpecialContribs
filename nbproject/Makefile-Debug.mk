@@ -35,6 +35,10 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/src/etcd/Client.o \
+	${OBJECTDIR}/src/etcd/Response.o \
+	${OBJECTDIR}/src/etcd/Value.o \
+	${OBJECTDIR}/src/etcd/json_constants.o \
 	${OBJECTDIR}/src/hashkit/algorithm.o \
 	${OBJECTDIR}/src/hashkit/behavior.o \
 	${OBJECTDIR}/src/hashkit/crc32.o \
@@ -427,6 +431,26 @@ lib/libspecialcontribsd.a: ${OBJECTFILES}
 	${RM} lib/libspecialcontribsd.a
 	${AR} -rv lib/libspecialcontribsd.a ${OBJECTFILES} 
 	$(RANLIB) lib/libspecialcontribsd.a
+
+${OBJECTDIR}/src/etcd/Client.o: src/etcd/Client.cpp
+	${MKDIR} -p ${OBJECTDIR}/src/etcd
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DJEMALLOC_NO_PRIVATE_NAMESPACE -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/etcd/Client.o src/etcd/Client.cpp
+
+${OBJECTDIR}/src/etcd/Response.o: src/etcd/Response.cpp
+	${MKDIR} -p ${OBJECTDIR}/src/etcd
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DJEMALLOC_NO_PRIVATE_NAMESPACE -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/etcd/Response.o src/etcd/Response.cpp
+
+${OBJECTDIR}/src/etcd/Value.o: src/etcd/Value.cpp
+	${MKDIR} -p ${OBJECTDIR}/src/etcd
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DJEMALLOC_NO_PRIVATE_NAMESPACE -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/etcd/Value.o src/etcd/Value.cpp
+
+${OBJECTDIR}/src/etcd/json_constants.o: src/etcd/json_constants.cpp
+	${MKDIR} -p ${OBJECTDIR}/src/etcd
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DJEMALLOC_NO_PRIVATE_NAMESPACE -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/etcd/json_constants.o src/etcd/json_constants.cpp
 
 ${OBJECTDIR}/src/hashkit/algorithm.o: src/hashkit/algorithm.c
 	${MKDIR} -p ${OBJECTDIR}/src/hashkit
@@ -2220,6 +2244,58 @@ ${TESTDIR}/tests/TestSnappy.o: tests/TestSnappy.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DJEMALLOC_NO_PRIVATE_NAMESPACE -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -I. -std=c++11 -MMD -MP -MF "$@.d" -o ${TESTDIR}/tests/TestSnappy.o tests/TestSnappy.cpp
 
+
+${OBJECTDIR}/src/etcd/Client_nomain.o: ${OBJECTDIR}/src/etcd/Client.o src/etcd/Client.cpp 
+	${MKDIR} -p ${OBJECTDIR}/src/etcd
+	@NMOUTPUT=`${NM} ${OBJECTDIR}/src/etcd/Client.o`; \
+	if (echo "$$NMOUTPUT" | ${GREP} '|main$$') || \
+	   (echo "$$NMOUTPUT" | ${GREP} 'T main$$') || \
+	   (echo "$$NMOUTPUT" | ${GREP} 'T _main$$'); \
+	then  \
+	    ${RM} "$@.d";\
+	    $(COMPILE.cc) -g -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DJEMALLOC_NO_PRIVATE_NAMESPACE -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -Dmain=__nomain -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/etcd/Client_nomain.o src/etcd/Client.cpp;\
+	else  \
+	    ${CP} ${OBJECTDIR}/src/etcd/Client.o ${OBJECTDIR}/src/etcd/Client_nomain.o;\
+	fi
+
+${OBJECTDIR}/src/etcd/Response_nomain.o: ${OBJECTDIR}/src/etcd/Response.o src/etcd/Response.cpp 
+	${MKDIR} -p ${OBJECTDIR}/src/etcd
+	@NMOUTPUT=`${NM} ${OBJECTDIR}/src/etcd/Response.o`; \
+	if (echo "$$NMOUTPUT" | ${GREP} '|main$$') || \
+	   (echo "$$NMOUTPUT" | ${GREP} 'T main$$') || \
+	   (echo "$$NMOUTPUT" | ${GREP} 'T _main$$'); \
+	then  \
+	    ${RM} "$@.d";\
+	    $(COMPILE.cc) -g -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DJEMALLOC_NO_PRIVATE_NAMESPACE -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -Dmain=__nomain -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/etcd/Response_nomain.o src/etcd/Response.cpp;\
+	else  \
+	    ${CP} ${OBJECTDIR}/src/etcd/Response.o ${OBJECTDIR}/src/etcd/Response_nomain.o;\
+	fi
+
+${OBJECTDIR}/src/etcd/Value_nomain.o: ${OBJECTDIR}/src/etcd/Value.o src/etcd/Value.cpp 
+	${MKDIR} -p ${OBJECTDIR}/src/etcd
+	@NMOUTPUT=`${NM} ${OBJECTDIR}/src/etcd/Value.o`; \
+	if (echo "$$NMOUTPUT" | ${GREP} '|main$$') || \
+	   (echo "$$NMOUTPUT" | ${GREP} 'T main$$') || \
+	   (echo "$$NMOUTPUT" | ${GREP} 'T _main$$'); \
+	then  \
+	    ${RM} "$@.d";\
+	    $(COMPILE.cc) -g -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DJEMALLOC_NO_PRIVATE_NAMESPACE -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -Dmain=__nomain -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/etcd/Value_nomain.o src/etcd/Value.cpp;\
+	else  \
+	    ${CP} ${OBJECTDIR}/src/etcd/Value.o ${OBJECTDIR}/src/etcd/Value_nomain.o;\
+	fi
+
+${OBJECTDIR}/src/etcd/json_constants_nomain.o: ${OBJECTDIR}/src/etcd/json_constants.o src/etcd/json_constants.cpp 
+	${MKDIR} -p ${OBJECTDIR}/src/etcd
+	@NMOUTPUT=`${NM} ${OBJECTDIR}/src/etcd/json_constants.o`; \
+	if (echo "$$NMOUTPUT" | ${GREP} '|main$$') || \
+	   (echo "$$NMOUTPUT" | ${GREP} 'T main$$') || \
+	   (echo "$$NMOUTPUT" | ${GREP} 'T _main$$'); \
+	then  \
+	    ${RM} "$@.d";\
+	    $(COMPILE.cc) -g -DBUILD_LIBSTATGRAB -DHAVE_CONFIG_H -DJEMALLOC_NO_PRIVATE_NAMESPACE -DLEVELDB_PLATFORM_POSIX -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX -DTHREADED -D_GNU_SOURCE -Iinc -Iinclude/kyotocabinet -Isrc/hashkit -Isrc/libstatgrab -Isrc/rocksdb -Isrc/ -Isrc/leveldb -std=c++11 -Dmain=__nomain -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/etcd/json_constants_nomain.o src/etcd/json_constants.cpp;\
+	else  \
+	    ${CP} ${OBJECTDIR}/src/etcd/json_constants.o ${OBJECTDIR}/src/etcd/json_constants_nomain.o;\
+	fi
 
 ${OBJECTDIR}/src/hashkit/algorithm_nomain.o: ${OBJECTDIR}/src/hashkit/algorithm.o src/hashkit/algorithm.c 
 	${MKDIR} -p ${OBJECTDIR}/src/hashkit

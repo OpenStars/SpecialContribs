@@ -163,6 +163,16 @@
                    projectFiles="true">
     </logicalFolder>
     <logicalFolder name="src" displayName="src" projectFiles="true">
+      <logicalFolder name="etcd" displayName="etcd" projectFiles="true">
+        <itemPath>src/etcd/Client.cpp</itemPath>
+        <itemPath>src/etcd/Client.hpp</itemPath>
+        <itemPath>src/etcd/Response.cpp</itemPath>
+        <itemPath>src/etcd/Response.hpp</itemPath>
+        <itemPath>src/etcd/Value.cpp</itemPath>
+        <itemPath>src/etcd/Value.hpp</itemPath>
+        <itemPath>src/etcd/json_constants.cpp</itemPath>
+        <itemPath>src/etcd/json_constants.hpp</itemPath>
+      </logicalFolder>
       <logicalFolder name="hashkit" displayName="hashkit" projectFiles="true">
         <itemPath>src/hashkit/algorithm.c</itemPath>
         <itemPath>src/hashkit/algorithm.h</itemPath>
@@ -888,6 +898,9 @@
       <itemPath>Makefile</itemPath>
     </logicalFolder>
   </logicalFolder>
+  <sourceRootList>
+    <Elem>src/etcd</Elem>
+  </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
     <conf name="Debug" type="3">
@@ -1355,6 +1368,22 @@
             flavor2="0">
       </item>
       <item path="include/snappy/snappy.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/etcd/Client.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/etcd/Client.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/etcd/Response.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/etcd/Response.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/etcd/Value.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/etcd/Value.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/etcd/json_constants.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/etcd/json_constants.hpp" ex="false" tool="3" flavor2="0">
       </item>
       <item path="src/hashkit/algorithm.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -3624,6 +3653,7 @@
             <pElem>src/rocksdb</pElem>
             <pElem>src/</pElem>
             <pElem>src/leveldb</pElem>
+            <pElem>/usr/local/include/cpprest</pElem>
           </incDir>
           <preprocessorList>
             <Elem>BUILD_LIBSTATGRAB</Elem>
@@ -4059,6 +4089,22 @@
             flavor2="0">
       </item>
       <item path="include/snappy/snappy.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/etcd/Client.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/etcd/Client.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/etcd/Response.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/etcd/Response.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/etcd/Value.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/etcd/Value.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/etcd/json_constants.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/etcd/json_constants.hpp" ex="false" tool="3" flavor2="0">
       </item>
       <item path="src/hashkit/algorithm.c" ex="false" tool="0" flavor2="0">
       </item>
