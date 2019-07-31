@@ -6,7 +6,6 @@
     </data>
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group name="hcore2017"/>
         <group name="Trades">
             <file>file:/data/data/src/cpp/hcore2017/contribs/SpecialContribs/src/leveldb/port/port_posix.cc</file>
             <file>file:/data/data/src/cpp/hcore2017/contribs/SpecialContribs/src/leveldb/port/port_posix.h</file>
@@ -16,6 +15,12 @@
             <file>file:/home/lehaisonmath6/Desktop/Database/contribs/SpecialContribs/src/zkadapter/blockingqueue.h</file>
             <file>file:/home/lehaisonmath6/Desktop/Database/contribs/SpecialContribs/src/zkadapter/mutex.h</file>
             <file>file:/home/lehaisonmath6/Desktop/Database/contribs/SpecialContribs/src/zkadapter/zkadapter.h</file>
+        </group>
+        <group name="hcore2017">
+            <file>file:/data/data/src/cpp/hcore2017/contribs/SpecialContribs/src/etcd/Client.hpp</file>
+            <file>file:/data/data/src/cpp/hcore2017/contribs/SpecialContribs/src/etcd/Value.cpp</file>
+            <file>file:/data/data/src/cpp/hcore2017/contribs/SpecialContribs/inc/cpprest/http_client.h</file>
+            <file>file:/data/data/src/cpp/hcore2017/contribs/SpecialContribs/src/etcd/Client.cpp</file>
         </group>
     </open-files>
 </project-private>

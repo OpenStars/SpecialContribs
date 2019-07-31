@@ -11,6 +11,8 @@
             <make-dep-projects/>
             <sourceRootList>
                 <sourceRootElem>src/etcd</sourceRootElem>
+                <sourceRootElem>include/cpprest</sourceRootElem>
+                <sourceRootElem>include/etcd</sourceRootElem>
             </sourceRootList>
             <confList>
                 <confElem>

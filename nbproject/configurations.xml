@@ -6,6 +6,50 @@
                    projectFiles="true">
     </logicalFolder>
     <logicalFolder name="include" displayName="include" projectFiles="true">
+      <logicalFolder name="cpprest" displayName="cpprest" projectFiles="true">
+        <logicalFolder name="details" displayName="details" projectFiles="true">
+          <itemPath>include/cpprest/details/SafeInt3.hpp</itemPath>
+          <itemPath>include/cpprest/details/basic_types.h</itemPath>
+          <itemPath>include/cpprest/details/cpprest_compat.h</itemPath>
+          <itemPath>include/cpprest/details/fileio.h</itemPath>
+          <itemPath>include/cpprest/details/http_constants.dat</itemPath>
+          <itemPath>include/cpprest/details/http_helpers.h</itemPath>
+          <itemPath>include/cpprest/details/http_server.h</itemPath>
+          <itemPath>include/cpprest/details/http_server_api.h</itemPath>
+          <itemPath>include/cpprest/details/nosal.h</itemPath>
+          <itemPath>include/cpprest/details/resource.h</itemPath>
+          <itemPath>include/cpprest/details/web_utilities.h</itemPath>
+        </logicalFolder>
+        <itemPath>include/cpprest/astreambuf.h</itemPath>
+        <itemPath>include/cpprest/asyncrt_utils.h</itemPath>
+        <itemPath>include/cpprest/base_uri.h</itemPath>
+        <itemPath>include/cpprest/containerstream.h</itemPath>
+        <itemPath>include/cpprest/filestream.h</itemPath>
+        <itemPath>include/cpprest/http_client.h</itemPath>
+        <itemPath>include/cpprest/http_compression.h</itemPath>
+        <itemPath>include/cpprest/http_headers.h</itemPath>
+        <itemPath>include/cpprest/http_listener.h</itemPath>
+        <itemPath>include/cpprest/http_msg.h</itemPath>
+        <itemPath>include/cpprest/interopstream.h</itemPath>
+        <itemPath>include/cpprest/json.h</itemPath>
+        <itemPath>include/cpprest/oauth1.h</itemPath>
+        <itemPath>include/cpprest/oauth2.h</itemPath>
+        <itemPath>include/cpprest/producerconsumerstream.h</itemPath>
+        <itemPath>include/cpprest/rawptrstream.h</itemPath>
+        <itemPath>include/cpprest/streams.h</itemPath>
+        <itemPath>include/cpprest/uri.h</itemPath>
+        <itemPath>include/cpprest/uri_builder.h</itemPath>
+        <itemPath>include/cpprest/version.h</itemPath>
+        <itemPath>include/cpprest/ws_client.h</itemPath>
+        <itemPath>include/cpprest/ws_msg.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="etcd" displayName="etcd" projectFiles="true">
+        <itemPath>include/etcd/Client.hpp</itemPath>
+        <itemPath>include/etcd/Response.hpp</itemPath>
+        <itemPath>include/etcd/SyncClient.hpp</itemPath>
+        <itemPath>include/etcd/Value.hpp</itemPath>
+        <itemPath>include/etcd/Watcher.hpp</itemPath>
+      </logicalFolder>
       <logicalFolder name="f3" displayName="jemalloc" projectFiles="true">
         <itemPath>include/jemalloc/jemalloc.h</itemPath>
         <itemPath>include/jemalloc/jemalloc.sh</itemPath>
@@ -163,16 +207,6 @@
                    projectFiles="true">
     </logicalFolder>
     <logicalFolder name="src" displayName="src" projectFiles="true">
-      <logicalFolder name="etcd" displayName="etcd" projectFiles="true">
-        <itemPath>src/etcd/Client.cpp</itemPath>
-        <itemPath>src/etcd/Client.hpp</itemPath>
-        <itemPath>src/etcd/Response.cpp</itemPath>
-        <itemPath>src/etcd/Response.hpp</itemPath>
-        <itemPath>src/etcd/Value.cpp</itemPath>
-        <itemPath>src/etcd/Value.hpp</itemPath>
-        <itemPath>src/etcd/json_constants.cpp</itemPath>
-        <itemPath>src/etcd/json_constants.hpp</itemPath>
-      </logicalFolder>
       <logicalFolder name="hashkit" displayName="hashkit" projectFiles="true">
         <itemPath>src/hashkit/algorithm.c</itemPath>
         <itemPath>src/hashkit/algorithm.h</itemPath>
@@ -884,6 +918,12 @@
                    displayName="Test Files"
                    projectFiles="false"
                    kind="TEST_LOGICAL_FOLDER">
+      <logicalFolder name="f2"
+                     displayName="TestEtcdV3Client"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>src/etcd/tests/TestEtcdV3Client.cpp</itemPath>
+      </logicalFolder>
       <logicalFolder name="f1"
                      displayName="TestSnappy"
                      projectFiles="true"
@@ -900,6 +940,8 @@
   </logicalFolder>
   <sourceRootList>
     <Elem>src/etcd</Elem>
+    <Elem>include/cpprest</Elem>
+    <Elem>include/etcd</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -971,6 +1013,124 @@
           <output>${TESTDIR}/TestFiles/f1</output>
         </linkerTool>
       </folder>
+      <folder path="TestFiles/f2">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f2</output>
+        </linkerTool>
+      </folder>
+      <item path="include/cpprest/astreambuf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/asyncrt_utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/base_uri.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/containerstream.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/details/SafeInt3.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/cpprest/details/basic_types.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/cpprest/details/cpprest_compat.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/cpprest/details/fileio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/details/http_constants.dat"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/cpprest/details/http_helpers.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/cpprest/details/http_server.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/cpprest/details/http_server_api.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/cpprest/details/nosal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/details/resource.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/details/web_utilities.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/cpprest/filestream.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/http_client.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/http_compression.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/http_headers.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/http_listener.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/http_msg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/interopstream.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/json.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/oauth1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/oauth2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/producerconsumerstream.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/cpprest/rawptrstream.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/streams.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/uri.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/uri_builder.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/version.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/ws_client.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/ws_msg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/etcd/Client.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/etcd/Response.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/etcd/SyncClient.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/etcd/Value.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/etcd/Watcher.hpp" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="include/jemalloc/jemalloc.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="include/jemalloc/jemalloc.sh" ex="false" tool="3" flavor2="0">
@@ -1369,21 +1529,10 @@
       </item>
       <item path="include/snappy/snappy.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="src/etcd/Client.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="src/etcd/Client.hpp" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="src/etcd/Response.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="src/etcd/Response.hpp" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="src/etcd/Value.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="src/etcd/Value.hpp" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="src/etcd/json_constants.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="src/etcd/json_constants.hpp" ex="false" tool="3" flavor2="0">
+      <item path="src/etcd/tests/TestEtcdV3Client.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="src/hashkit/algorithm.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -3692,6 +3841,151 @@
           <output>${TESTDIR}/TestFiles/f1</output>
         </linkerTool>
       </folder>
+      <folder path="TestFiles/f2">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f2</output>
+          <linkerLibItems>
+            <linkerLibFileItem>lib/libetcd-cpp-api.a</linkerLibFileItem>
+            <linkerLibFileItem>lib/libares.a</linkerLibFileItem>
+            <linkerLibFileItem>lib/libcpprest.a</linkerLibFileItem>
+            <linkerLibFileItem>lib/libgpr.a</linkerLibFileItem>
+            <linkerLibFileItem>lib/libgrpc++.a</linkerLibFileItem>
+            <linkerLibFileItem>lib/libgrpc++_core_stats.a</linkerLibFileItem>
+            <linkerLibFileItem>lib/libgrpc++_cronet.a</linkerLibFileItem>
+            <linkerLibFileItem>lib/libgrpc++_error_details.a</linkerLibFileItem>
+            <linkerLibFileItem>lib/libgrpc++_reflection.a</linkerLibFileItem>
+            <linkerLibFileItem>lib/libgrpc++_unsecure.a</linkerLibFileItem>
+            <linkerLibFileItem>lib/libgrpc.a</linkerLibFileItem>
+            <linkerLibFileItem>lib/libgrpc_unsecure.a</linkerLibFileItem>
+            <linkerLibFileItem>lib/libgrpcpp_channelz.a</linkerLibFileItem>
+            <linkerLibFileItem>lib/libprotobuf.a</linkerLibFileItem>
+            <linkerLibFileItem>lib/libboost_atomic.a</linkerLibFileItem>
+            <linkerLibFileItem>lib/libboost_chrono.a</linkerLibFileItem>
+            <linkerLibFileItem>lib/libboost_date_time.a</linkerLibFileItem>
+            <linkerLibFileItem>lib/libboost_locale.a</linkerLibFileItem>
+            <linkerLibFileItem>lib/libboost_regex.a</linkerLibFileItem>
+            <linkerLibFileItem>lib/libboost_system.a</linkerLibFileItem>
+            <linkerLibFileItem>lib/libboost_thread.a</linkerLibFileItem>
+            <linkerOptionItem>`pkg-config --libs openssl`</linkerOptionItem>
+            <linkerOptionItem>`pkg-config --libs zlib`</linkerOptionItem>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+            <linkerLibStdlibItem>DynamicLinking</linkerLibStdlibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </folder>
+      <item path="include/cpprest/astreambuf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/asyncrt_utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/base_uri.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/containerstream.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/details/SafeInt3.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/cpprest/details/basic_types.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/cpprest/details/cpprest_compat.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/cpprest/details/fileio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/details/http_constants.dat"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/cpprest/details/http_helpers.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/cpprest/details/http_server.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/cpprest/details/http_server_api.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/cpprest/details/nosal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/details/resource.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/details/web_utilities.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/cpprest/filestream.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/http_client.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/http_compression.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/http_headers.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/http_listener.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/http_msg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/interopstream.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/json.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/oauth1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/oauth2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/producerconsumerstream.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/cpprest/rawptrstream.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/streams.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/uri.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/uri_builder.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/version.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/ws_client.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cpprest/ws_msg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/etcd/Client.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/etcd/Response.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/etcd/SyncClient.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/etcd/Value.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/etcd/Watcher.hpp" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="include/jemalloc/jemalloc.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="include/jemalloc/jemalloc.sh" ex="false" tool="3" flavor2="0">
@@ -4090,21 +4384,10 @@
       </item>
       <item path="include/snappy/snappy.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="src/etcd/Client.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="src/etcd/Client.hpp" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="src/etcd/Response.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="src/etcd/Response.hpp" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="src/etcd/Value.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="src/etcd/Value.hpp" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="src/etcd/json_constants.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="src/etcd/json_constants.hpp" ex="false" tool="3" flavor2="0">
+      <item path="src/etcd/tests/TestEtcdV3Client.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="src/hashkit/algorithm.c" ex="false" tool="0" flavor2="0">
       </item>
